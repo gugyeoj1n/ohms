@@ -70,4 +70,9 @@ public class PlayerMove : MonoBehaviour
         float turn = playerInput.rotate * rotateSpeed * Time.deltaTime;
         playerRigidbody.rotation = playerRigidbody.rotation * Quaternion.Euler(0, turn, 0f);
     }
+
+    public void Gather()
+    {
+        playerAnim.SetTrigger("Gather");
+    }
 }
