@@ -24,10 +24,11 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         countText.text = "1";
         yield return new WaitForSeconds(1f);
-        Destroy(countText);
+        countText.text = "";
         timeManager.game = true;
         player.GetComponent<PlayerMove>().enabled = true;
         player.GetComponent<PlayerInput>().enabled = true;
+        player.GetComponent<InventoryOpen>().enabled = true;
         player.GetComponent<Inventory>().enabled = true;
     }
 }
