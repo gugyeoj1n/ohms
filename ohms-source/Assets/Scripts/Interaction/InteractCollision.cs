@@ -8,6 +8,12 @@ public class InteractCollision : MonoBehaviour
     private GameObject player;
     private Outline outline;
 
+    private string[] items = new string[] {
+        "battery", "bolt", "bullet", "circuit", "cutter",
+        "fabric","gear", "lighter", "nail", "pipe",
+        "revolver", "rope", "tape", "wire", "wrench"
+    };
+
     void Start()
     {
         outline = GetComponent<Outline>();
@@ -61,6 +67,22 @@ public class InteractCollision : MonoBehaviour
     {
         other.GetComponent<PlayerMove>().Gather();
         yield return new WaitForSeconds(1.5f);
+        GetRandomItem(player);
+        player.GetComponent<Inventory>().InvenUpdate();
         Destroy(this.gameObject);
+    }
+
+    void GetRandomItem(GameObject other)
+    {
+        for(int i = 0; i < Random.Range(1, 3); i++)
+        {
+            string itemName = items[Random.Range(0, 15)];
+            int randCount = Random.Range(1, 4);
+            Dictionary<string, int> itemDict = other.GetComponent<Inventory>().inven;
+            if(itemDict.ContainsKey(itemName))
+                itemDict[itemName] += randCount;
+            else
+                other.GetComponent<Inventory>().inven.Add(itemName, randCount);
+        }
     }
 }
