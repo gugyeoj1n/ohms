@@ -6,6 +6,12 @@ public class InteractCollision : MonoBehaviour
 {
     private bool opened = false;
     private GameObject player;
+    private Outline outline;
+
+    void Start()
+    {
+        outline = GetComponent<Outline>();
+    }
 
     void OnTriggerEnter(Collider other)
     {
@@ -41,7 +47,14 @@ public class InteractCollision : MonoBehaviour
 
     void Detect(bool s)
     { 
-        Debug.Log(s);
+        if(s)
+        {
+            outline.OutlineWidth = 2f;
+        }
+        else
+        {
+            outline.OutlineWidth = 0f;
+        }
     }
 
     IEnumerator Interact(GameObject other)
