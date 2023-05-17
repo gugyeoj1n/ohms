@@ -74,7 +74,7 @@ public class InteractCollision : MonoBehaviour
 
     void GetRandomItem(GameObject other)
     {
-        for(int i = 0; i < Random.Range(1, 3); i++)
+        for(int i = 0; i < Random.Range(1, 5); i++)
         {
             string itemName = items[Random.Range(0, 15)];
             int randCount = Random.Range(1, 4);

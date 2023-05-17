@@ -7,7 +7,7 @@ using TMPro;
 public class Inventory : MonoBehaviour
 {
     public Dictionary<string, int> inven = new Dictionary<string, int>();
-    private int maxX = 7;
+    private int maxX = 5;
     private int maxY = 3;
     private string iconPath = "InventoryImages/";
 
@@ -17,8 +17,27 @@ public class Inventory : MonoBehaviour
         int y = 1;
         foreach(KeyValuePair<string, int> item in inven)
         {
-            PushItem(item.Key, item.Value, x, y);
-            x++;
+            if(x < maxX)
+            {
+                Debug.Log("1. x < maxX");
+                PushItem(item.Key, item.Value, x, y);
+                x++;
+            }
+            else
+            {
+                if(y < maxY)
+                {
+                    Debug.Log("2. y < maxY");
+                    y++;
+                    x = 0;
+                    PushItem(item.Key, item.Value, x, y);
+                    x = 1;
+                }
+                else
+                {
+                    Debug.Log("INVENTORY FULL");
+                }
+            }
         }
     }
 
