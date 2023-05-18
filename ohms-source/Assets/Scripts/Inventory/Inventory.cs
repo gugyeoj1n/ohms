@@ -19,7 +19,6 @@ public class Inventory : MonoBehaviour
         {
             if(x < maxX)
             {
-                Debug.Log("1. x < maxX");
                 PushItem(item.Key, item.Value, x, y);
                 x++;
             }
@@ -27,15 +26,10 @@ public class Inventory : MonoBehaviour
             {
                 if(y < maxY)
                 {
-                    Debug.Log("2. y < maxY");
                     y++;
                     x = 0;
                     PushItem(item.Key, item.Value, x, y);
                     x = 1;
-                }
-                else
-                {
-                    Debug.Log("INVENTORY FULL");
                 }
             }
         }

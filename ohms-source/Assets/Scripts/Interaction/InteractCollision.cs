@@ -6,6 +6,7 @@ public class InteractCollision : MonoBehaviour
 {
     private bool opened = false;
     private GameObject player;
+    private GameObject gameManager;
     private Outline outline;
 
     private string[] items = new string[] {
@@ -17,6 +18,7 @@ public class InteractCollision : MonoBehaviour
     void Start()
     {
         outline = GetComponent<Outline>();
+        gameManager = GameObject.Find("GameManager");
     }
 
     void OnTriggerEnter(Collider other)
@@ -76,9 +78,15 @@ public class InteractCollision : MonoBehaviour
     {
         for(int i = 0; i < Random.Range(1, 5); i++)
         {
-            string itemName = items[Random.Range(0, 15)];
-            int randCount = Random.Range(9, 14);
             Dictionary<string, int> itemDict = other.GetComponent<Inventory>().inven;
+            if(itemDict.Count == 10) {
+                Debug.Log("INVENTORY FULL!!!");
+                return;
+            }
+            string itemName = items[Random.Range(0, 15)];
+            string[] messages = new string[] { "System", itemName };
+            gameManager.SendMessage("WriteChat", messages);
+            int randCount = Random.Range(9, 14);
             if(itemDict.ContainsKey(itemName))
                 itemDict[itemName] += randCount;
             else
