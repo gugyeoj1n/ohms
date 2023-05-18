@@ -5,6 +5,8 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public bool isStarted = false;
+    public bool isPaused = false;
     private TimeManager timeManager;
     public TMP_Text countText;
     public GameObject player;
@@ -27,9 +29,10 @@ public class GameManager : MonoBehaviour
         countText.text = "1";
         yield return new WaitForSeconds(1f);
         countText.text = "";
-        timeManager.game = true;
+        isStarted = true;
         string[] startChat = new string[] { "System", "gugyeoj1n 님과 hyunseo24 님의 게임이 시작되었습니다!" };
         chat.WriteChat(startChat);
+        GetComponent<AudioSource>().Play();
         player.GetComponent<PlayerMove>().enabled = true;
         player.GetComponent<PlayerInput>().enabled = true;
         player.GetComponent<InventoryOpen>().enabled = true;

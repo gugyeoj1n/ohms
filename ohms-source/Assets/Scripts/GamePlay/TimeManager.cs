@@ -6,12 +6,17 @@ using TMPro;
 public class TimeManager : MonoBehaviour
 {
     public TMP_Text timeText;
-    public bool game = false;
     public float time = 300f;
+    GameManager gameManager;
+
+    void Start()
+    {
+        gameManager = GetComponent<GameManager>();
+    }
 
     void Update()
     {
-        if(game)
+        if(gameManager.isStarted)
         {
             if(time >= 0f)
             {
