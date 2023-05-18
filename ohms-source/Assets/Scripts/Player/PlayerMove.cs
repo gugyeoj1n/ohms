@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float moveSpeed = 1.0f;
+    public float moveSpeed = 2.5f;
     public float rotateSpeed = 180f;
     public bool sprinting = false;
     public float stamina = 1f;
@@ -28,6 +28,7 @@ public class PlayerMove : MonoBehaviour
 
     void FixedUpdate()
     {
+        //if(playerAnim.GetCurrentAnimatorStateInfo(0).IsName("Gather"))
         Rotate();
         Move();
         playerAnim.SetFloat("Move", playerInput.move);
@@ -39,7 +40,7 @@ public class PlayerMove : MonoBehaviour
         else
         {
             sprinting = false;
-            moveSpeed = 1f;
+            moveSpeed = 2.5f;
         }
         Sprint(sprinting);
         playerAnim.SetBool("Sprint", sprinting);

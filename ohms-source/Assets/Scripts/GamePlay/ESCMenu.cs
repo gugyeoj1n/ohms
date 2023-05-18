@@ -23,9 +23,13 @@ public class ESCMenu : MonoBehaviour
         if(Input.GetKeyUp(KeyCode.Escape))
         {
             if(!gameManager.isPaused)
+            {
                 gameManager.isPaused = true;
+            }
             else
+            {
                 gameManager.isPaused = false;
+            }
             Menu.SetActive(gameManager.isPaused);
         }
     }
@@ -33,5 +37,10 @@ public class ESCMenu : MonoBehaviour
     public void ControlVolume()
     {
         backgroundMusic.volume = maxVolume * soundSlider.value;
+    }
+
+    public void ContinueGame()
+    {
+        Menu.SetActive(false);
     }
 }

@@ -1626,6 +1626,7 @@ GameObject:
   - component: {fileID: 4695529215989366123}
   - component: {fileID: 7625740315180137281}
   - component: {fileID: 6249758156983345161}
+  - component: {fileID: 1350745652}
   m_Layer: 0
   m_Name: Male_Player
   m_TagString: Player
@@ -1666,7 +1667,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 2518279a0ea64064f888decd98f15380, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -1716,7 +1717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62bf864ef561948b4b4bcace855c4a33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 5
   rotateSpeed: 180
   sprinting: 0
   stamina: 1
@@ -1746,7 +1747,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df4b25836c20d39459120acb5c55d9e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventory: {fileID: 0}
+  inventoryUI: {fileID: 0}
+--- !u!114 &1350745652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4535044265708908003}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0aefe1a60954d969857353bea532c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  invenName: []
+  invenCount: 
 --- !u!1 &4771467454794297533
 GameObject:
   m_ObjectHideFlags: 0
