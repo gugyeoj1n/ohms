@@ -77,7 +77,7 @@ public class InteractCollision : MonoBehaviour
         for(int i = 0; i < Random.Range(1, 5); i++)
         {
             string itemName = items[Random.Range(0, 15)];
-            int randCount = Random.Range(1, 4);
+            int randCount = Random.Range(9, 14);
             Dictionary<string, int> itemDict = other.GetComponent<Inventory>().inven;
             if(itemDict.ContainsKey(itemName))
                 itemDict[itemName] += randCount;
