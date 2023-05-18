@@ -9,7 +9,7 @@ public class InteractCollision : MonoBehaviour
     private GameObject gameManager;
     private Outline outline;
 
-    private string[] items = new string[] {
+    private string[] itemArray = new string[] {
         "battery", "bolt", "bullet", "circuit", "cutter",
         "fabric","gear", "lighter", "nail", "pipe",
         "revolver", "rope", "tape", "wire", "wrench"
@@ -78,19 +78,25 @@ public class InteractCollision : MonoBehaviour
     {
         for(int i = 0; i < Random.Range(1, 5); i++)
         {
-            Dictionary<string, int> itemDict = other.GetComponent<Inventory>().inven;
-            if(itemDict.Count == 10) {
+            List<string> items = other.GetComponent<Inventory>().invenName;
+            List<int> itemCounts = other.GetComponent<Inventory>().invenCount;
+            if(items.Count == 10) {
                 Debug.Log("INVENTORY FULL!!!");
+                string[] fullInven = new string[] { "System", "인벤토리에 빈 공간이 없습니다." };
+                gameManager.SendMessage("WriteChat", fullInven);
                 return;
             }
-            string itemName = items[Random.Range(0, 15)];
+            string itemName = itemArray[Random.Range(0, 15)];
             string[] messages = new string[] { "System", itemName };
             gameManager.SendMessage("WriteChat", messages);
             int randCount = Random.Range(9, 14);
-            if(itemDict.ContainsKey(itemName))
-                itemDict[itemName] += randCount;
+            if(items.Contains(itemName))
+                other.GetComponent<Inventory>().invenCount[items.IndexOf(itemName)] += randCount;
             else
-                other.GetComponent<Inventory>().inven.Add(itemName, randCount);
+            {
+                other.GetComponent<Inventory>().invenName.Add(itemName);
+                other.GetComponent<Inventory>().invenCount.Add(randCount);
+            }
         }
     }
 }

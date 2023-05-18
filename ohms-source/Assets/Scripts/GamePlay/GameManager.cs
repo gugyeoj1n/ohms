@@ -8,10 +8,12 @@ public class GameManager : MonoBehaviour
     private TimeManager timeManager;
     public TMP_Text countText;
     public GameObject player;
+    Chat chat;
 
     void Start()
     {
         timeManager = GetComponent<TimeManager>();
+        chat = GetComponent<Chat>();
         StartCoroutine(gameStart());
     }
 
@@ -26,6 +28,8 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         countText.text = "";
         timeManager.game = true;
+        string[] startChat = new string[] { "System", "gugyeoj1n 님과 hyunseo24 님의 게임이 시작되었습니다!" };
+        chat.WriteChat(startChat);
         player.GetComponent<PlayerMove>().enabled = true;
         player.GetComponent<PlayerInput>().enabled = true;
         player.GetComponent<InventoryOpen>().enabled = true;
