@@ -57,11 +57,11 @@ public class InteractCollision : MonoBehaviour
     { 
         if(s)
         {
-            outline.OutlineWidth = 2f;
+            outline.enabled = true;
         }
         else
         {
-            outline.OutlineWidth = 0f;
+            outline.enabled = false;
         }
     }
 
