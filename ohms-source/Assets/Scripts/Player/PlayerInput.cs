@@ -9,6 +9,7 @@ public class PlayerInput : MonoBehaviour
 
     void Update()
     {
+        Cursor.lockState = CursorLockMode.Confined;
         move = Input.GetAxis("Vertical");
         rotate = Input.GetAxis("Horizontal");
     }

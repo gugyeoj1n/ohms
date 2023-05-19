@@ -28,22 +28,21 @@ public class PlayerMove : MonoBehaviour
 
     void FixedUpdate()
     {
-        //if(playerAnim.GetCurrentAnimatorStateInfo(0).IsName("Gather"))
         Rotate();
         Move();
         playerAnim.SetFloat("Move", playerInput.move);
         if(Input.GetKey(KeyCode.LeftShift) && stamina > 0f)
         {
             sprinting = true;
-            moveSpeed = 4f;
+            moveSpeed = 5f;
         }
         else
         {
             sprinting = false;
             moveSpeed = 2.5f;
         }
-        Sprint(sprinting);
         playerAnim.SetBool("Sprint", sprinting);
+        Sprint(sprinting);
     }
 
     void Sprint(bool s)
