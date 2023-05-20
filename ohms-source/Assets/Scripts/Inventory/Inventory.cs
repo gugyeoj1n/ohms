@@ -9,8 +9,8 @@ public class Inventory : MonoBehaviour
     public Dictionary<string, int> inven = new Dictionary<string, int>();
     public List<string> invenName = new List<string>();
     public List<int> invenCount = new List<int>();
-    private int maxX = 5;
-    private int maxY = 2;
+    private int maxX = 6;
+    private int maxY = 3;
     private string iconPath = "InventoryImages/";
 
     public void InvenUpdate()

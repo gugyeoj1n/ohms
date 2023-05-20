@@ -12,7 +12,9 @@ public class InteractCollision : MonoBehaviour
     private string[] itemArray = new string[] {
         "battery", "bolt", "bullet", "circuit", "cutter",
         "fabric","gear", "lighter", "nail", "pipe",
-        "revolver", "rope", "tape", "wire", "wrench"
+        "revolver", "rope", "tape", "wire", "wrench",
+        "ironbar", "battery2", "flashlight", "crowbar", "drug",
+        "gunpowder", "radio", "burger", "water",
     };
 
     void Start()
@@ -80,13 +82,13 @@ public class InteractCollision : MonoBehaviour
         {
             List<string> items = other.GetComponent<Inventory>().invenName;
             List<int> itemCounts = other.GetComponent<Inventory>().invenCount;
-            if(items.Count == 10) {
+            if(items.Count == 18) {
                 Debug.Log("INVENTORY FULL!!!");
                 string[] fullInven = new string[] { "System", "인벤토리에 빈 공간이 없습니다." };
                 gameManager.SendMessage("WriteChat", fullInven);
                 return;
             }
-            string itemName = itemArray[Random.Range(0, 15)];
+            string itemName = itemArray[Random.Range(0, itemArray.Length)];
             string[] messages = new string[] { "System", itemName };
             gameManager.SendMessage("WriteChat", messages);
             int randCount = Random.Range(9, 14);
