@@ -37,13 +37,14 @@ public class ItemDrop : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 
         List<RaycastResult> results = new List<RaycastResult>();
         gr.Raycast(eventData, results);
+        string slot = transform.parent.gameObject.name;
+        string slotline = transform.parent.gameObject.transform.parent.gameObject.name;
         if(results.Count <= 0)
         {
-            string slot = transform.parent.gameObject.name;
-            string slotline = transform.parent.gameObject.transform.parent.gameObject.name;
-            Debug.Log(string.Format("ItemDrop 실행, 슬롯 위치 {0} {1}", slotline[8], slot[4]));
             inven.PopItem(slotline[8] - '0', slot[4] - '0');
             return;
+        } else if(results[0].gameObject.name == "ToolSlot" || results[0].gameObject.name == "ToolItem") {
+            inven.EquipItem(slotline[8] - '0', slot[4] - '0');
         }
 
         Color color = GetComponent<Image>().color;

@@ -12,9 +12,9 @@ public class InvenCamFollow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        Vector3 pos = new Vector3(player.transform.position.x, player.transform.position.y + 1f, player.transform.position.z + 5);
+        Vector3 pos = new Vector3(player.transform.position.x, player.transform.position.y + 1, player.transform.position.z + 5);
         transform.position = pos;
     }
 }
