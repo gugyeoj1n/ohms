@@ -15,7 +15,7 @@ C:/Users/PC/Documents/GitHub/ohms/ohms-source
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60002
+62901
 Successfully changed project path to: C:/Users/PC/Documents/GitHub/ohms/ohms-source
 C:/Users/PC/Documents/GitHub/ohms/ohms-source
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/PC/Documents/GitHub/ohms/ohms-source
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [640] Host "[IP] 25.33.173.53 [Port] 0 [Flags] 2 [Guid] 642084492 [EditorId] 642084492 [Version] 1048832 [Id] WindowsEditor(7,gugyeoj1n) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25312] Host "[IP] 25.33.173.53 [Port] 0 [Flags] 2 [Guid] 3784937525 [EditorId] 3784937525 [Version] 1048832 [Id] WindowsEditor(7,gugyeoj1n) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [640] Host "[IP] 25.33.173.53 [Port] 0 [Flags] 2 [Guid] 642084492 [EditorId] 642084492 [Version] 1048832 [Id] WindowsEditor(7,gugyeoj1n) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25312] Host "[IP] 25.33.173.53 [Port] 0 [Flags] 2 [Guid] 3784937525 [EditorId] 3784937525 [Version] 1048832 [Id] WindowsEditor(7,gugyeoj1n) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 60.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003355 seconds.
+Registered in 0.004625 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 62.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 79.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.474 seconds
+- Completed reload, in  0.610 seconds
 Domain Reload Profiling:
-	ReloadAssembly (474ms)
-		BeginReloadAssembly (76ms)
+	ReloadAssembly (611ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (328ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (430ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (64ms)
+			SetupTypeCache (97ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (209ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (260ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (63ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008792 seconds.
+Registered in 0.007692 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.911 seconds
+- Completed reload, in  0.943 seconds
 Domain Reload Profiling:
-	ReloadAssembly (912ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (943ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (711ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
-			ReleaseScriptCaches (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (334ms)
+			SetupLoadedEditorAssemblies (318ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3405 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (1.6 MB). Loaded Objects now: 3868.
-Memory consumption went from 147.3 MB to 145.7 MB.
-Total: 3.013000 ms (FindLiveObjects: 0.213700 ms CreateObjectMapping: 0.152500 ms MarkObjects: 2.353000 ms  DeleteObjects: 0.293000 ms)
+Unloading 3628 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (1.6 MB). Loaded Objects now: 4086.
+Memory consumption went from 154.4 MB to 152.7 MB.
+Total: 2.252800 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.073700 ms MarkObjects: 1.727100 ms  DeleteObjects: 0.274200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,289 +163,475 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 835296.233139 seconds.
-  path: Assets/Weapon_Asset/Prefabs/BulletLite_02.prefab
-  artifactKey: Guid(9c3cddd6060b7cc4eadfb9cefcf6e7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon_Asset/Prefabs/BulletLite_02.prefab using Guid(9c3cddd6060b7cc4eadfb9cefcf6e7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc572344938ed19d0f8ca3aba2f7ddf7') in 0.111458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Weapon_Asset/Prefabs/Weapon_02.prefab
-  artifactKey: Guid(260ff1508afea5241b6511d8fbe92201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon_Asset/Prefabs/Weapon_02.prefab using Guid(260ff1508afea5241b6511d8fbe92201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e926ff962f02e036eebdc13cd388e6') in 0.013798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Weapon_Asset/Prefabs/BulletLite_01.prefab
-  artifactKey: Guid(745a87995944ab94caa447ec2061dbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon_Asset/Prefabs/BulletLite_01.prefab using Guid(745a87995944ab94caa447ec2061dbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3745459cb5ed55e39b43d305ae83884') in 0.009376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Weapon_Asset/Prefabs/Weapon_01.prefab
-  artifactKey: Guid(a35b8c32acba1334b9b31dfe8cdbc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon_Asset/Prefabs/Weapon_01.prefab using Guid(a35b8c32acba1334b9b31dfe8cdbc9be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ed6cc3fe9e96b0ea296d93e0898c77') in 0.009650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Weapon_Asset/Prefabs
-  artifactKey: Guid(6c2a0c30dd79c2b47838fccbcb80ef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon_Asset/Prefabs using Guid(6c2a0c30dd79c2b47838fccbcb80ef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9187c7710df9896eeeef052add92e37') in 0.001800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Weapon_Asset/Prefabs/Knife_01.prefab
-  artifactKey: Guid(c1ab9abedc9d80f4a9109fe99b4ea8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon_Asset/Prefabs/Knife_01.prefab using Guid(c1ab9abedc9d80f4a9109fe99b4ea8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adafb7bbd6295fd3a5a487200203bbbb') in 0.008897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.127612 seconds.
-  path: Assets/Car_Asset/LowPolyCarPack/Palettes/Palette_Green.png
-  artifactKey: Guid(6669a8090d705f14593e50a03512ee8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Asset/LowPolyCarPack/Palettes/Palette_Green.png using Guid(6669a8090d705f14593e50a03512ee8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66de09c1bce8126bf9fd1ba80f00290') in 0.038242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Car_Asset/LowPolyCarPack/Palettes/Palette_Red.png
-  artifactKey: Guid(518fc686bf3d2ca418b50245a6e1f26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Asset/LowPolyCarPack/Palettes/Palette_Red.png using Guid(518fc686bf3d2ca418b50245a6e1f26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ff6a20961add5759e555f5a02a8d91') in 0.017911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Car_Asset/LowPolyCarPack/Palettes/Palette_Yellow.png
-  artifactKey: Guid(3f42a1f6889f5254fa3ab04dc5dd30f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car_Asset/LowPolyCarPack/Palettes/Palette_Yellow.png using Guid(3f42a1f6889f5254fa3ab04dc5dd30f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42dd5cd3366ea70047e0ede8b4589fd5') in 0.021140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.832243 seconds.
-  path: Assets/Dungeon_Asset/Materials/LowPolyDungeonsLite_Light.mat
-  artifactKey: Guid(2f12fcec4b3dcc0489472b3a9cfa44c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon_Asset/Materials/LowPolyDungeonsLite_Light.mat using Guid(2f12fcec4b3dcc0489472b3a9cfa44c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980b77a42c28b3804870b3a564aefdd9') in 0.037450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.425002 seconds.
-  path: Assets/Dungeon_Asset/Prefabs/Bottle_05.prefab
-  artifactKey: Guid(0c837400ef1130c4196d20ee30637d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon_Asset/Prefabs/Bottle_05.prefab using Guid(0c837400ef1130c4196d20ee30637d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe44a77f1efb3ff5b2098da3769813b') in 0.010529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Dungeon_Asset/Prefabs/Column_01.prefab
-  artifactKey: Guid(2f3f7d4927009b84583c02fcbc509217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon_Asset/Prefabs/Column_01.prefab using Guid(2f3f7d4927009b84583c02fcbc509217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71287343dd6eb175849dec8be14618e') in 0.020360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Dungeon_Asset/Prefabs/Wall_27.prefab
-  artifactKey: Guid(2f6c4572e07a60b43b00e1c4f489a806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon_Asset/Prefabs/Wall_27.prefab using Guid(2f6c4572e07a60b43b00e1c4f489a806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45997c62ba66b1d265a9c4a73c0d765') in 0.034464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Dungeon_Asset/Prefabs/Candle_01.prefab
-  artifactKey: Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon_Asset/Prefabs/Candle_01.prefab using Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9426a52b9b5161d355b70a868d9d5de1') in 0.027392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Dungeon_Asset/Prefabs/Pot_01.prefab
-  artifactKey: Guid(616fdaa7dbff40e4f91c695be15f9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon_Asset/Prefabs/Pot_01.prefab using Guid(616fdaa7dbff40e4f91c695be15f9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea6a46039b01838c0a00fb58bbe694c') in 0.031085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Dungeon_Asset/Prefabs/Wood_02.prefab
-  artifactKey: Guid(5062c1312f2beb14694d90a058d444e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon_Asset/Prefabs/Wood_02.prefab using Guid(5062c1312f2beb14694d90a058d444e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa46612eedbf5c130c133d5ee1c9e24') in 0.050162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Dungeon_Asset/Prefabs/Chair_05.prefab
-  artifactKey: Guid(3c94a574020d3de429d0c295b3a83db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dungeon_Asset/Prefabs/Chair_05.prefab using Guid(3c94a574020d3de429d0c295b3a83db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173a76176adb1a25d69edba98fe77cfc') in 0.025209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.323157 seconds.
-  path: Assets/Logo/Final.jpeg
-  artifactKey: Guid(b643a357558a44ce5b396d1ae1a07e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Logo/Final.jpeg using Guid(b643a357558a44ce5b396d1ae1a07e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db54c4a6313af01ddc221e8d16016205') in 0.092940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.142712 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/AmpRack_02.dae
-  artifactKey: Guid(d31353d1f3002254bb9c6dccb795b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/AmpRack_02.dae using Guid(d31353d1f3002254bb9c6dccb795b548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e1bcbf5f54f8b11f70a53f30eaaf0b') in 0.029672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_03.dae
-  artifactKey: Guid(1ed15304222a5714492c11688b4476ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_03.dae using Guid(1ed15304222a5714492c11688b4476ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662917e9d52acf000e5cdaff4bb661c2') in 0.010710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_01.dae
-  artifactKey: Guid(4570ffb3502664541b65ea4a55f1d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_01.dae using Guid(4570ffb3502664541b65ea4a55f1d760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b316af3f0f3fccede14027522a916df0') in 0.009922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/Container_02.dae
-  artifactKey: Guid(58b2a76bf4bc9d343ac061af00f7c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Container_02.dae using Guid(58b2a76bf4bc9d343ac061af00f7c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08e2b3695b4a1ac9c31cde31f0a7db6') in 0.010002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_03.dae
-  artifactKey: Guid(f1a871656407f1843a8eea3435a3ef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Barrel_03.dae using Guid(f1a871656407f1843a8eea3435a3ef93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6aacf8dc20c8c7052e207186b756ab1') in 0.009091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/Locker.dae
-  artifactKey: Guid(2d260eb281c666c428d94133569434d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Locker.dae using Guid(2d260eb281c666c428d94133569434d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6b0d84e715a577a655235eac3b2723') in 0.009497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/ElectricBox_02.dae
-  artifactKey: Guid(8b31306a55f55a443a1ae198d8098127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/ElectricBox_02.dae using Guid(8b31306a55f55a443a1ae198d8098127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547ad6280a107506f50729d0598bed34') in 0.008737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/Crate_01.dae
-  artifactKey: Guid(37af191fce887fc4fa10ccff84e57459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Crate_01.dae using Guid(37af191fce887fc4fa10ccff84e57459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32fb51892bb2466f711fc2f41e7f94b') in 0.008588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/Giftbox_02.dae
-  artifactKey: Guid(ad0f380d466940048bdd16c9160d04aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Giftbox_02.dae using Guid(ad0f380d466940048bdd16c9160d04aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd009a2d4486a06157e268fad42469761') in 0.010111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/Basket_02.dae
-  artifactKey: Guid(982b488cfea6b424b84c9ed986a74f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Basket_02.dae using Guid(982b488cfea6b424b84c9ed986a74f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c82ec736f6c92a7514dd5f860b6c4b') in 0.010698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_01.dae
-  artifactKey: Guid(ffda0faa00b197942bab9c63c81e74e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Cabinet_01.dae using Guid(ffda0faa00b197942bab9c63c81e74e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f025e1d3a8f09c5245f90bc32cc3b4') in 0.010147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BrokenVector/LowPolyStoragePack/Models/Trashcan_02.dae
-  artifactKey: Guid(89c2d85839a02134e8c7081446ea0944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyStoragePack/Models/Trashcan_02.dae using Guid(89c2d85839a02134e8c7081446ea0944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67378e31b908f4e43be3b80a3fc4396f') in 0.008333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.842879 seconds.
-  path: Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_arrow-modern_LP.png
-  artifactKey: Guid(4576de3ba532ce9458d194390b003857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_arrow-modern_LP.png using Guid(4576de3ba532ce9458d194390b003857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc637509d8e25597dc4163bcdf7ed9a5') in 0.046962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_pistol_LP.png
-  artifactKey: Guid(60e089a2618003647aca28f4b5376b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_pistol_LP.png using Guid(60e089a2618003647aca28f4b5376b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746e4d0c4eaaf0339d8cba1f63ba1fba') in 0.043777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_katana_LP.png
-  artifactKey: Guid(08bb284f2022330419e4b812e13efb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_katana_LP.png using Guid(08bb284f2022330419e4b812e13efb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbc3b1f3eabb5c2ced31297f5816e3d') in 0.034247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_rpg_LP.png
-  artifactKey: Guid(9b7f0575d502f7d4d9ac3774114643e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_rpg_LP.png using Guid(9b7f0575d502f7d4d9ac3774114643e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a395f02775e858d02c3197f1f73ae67c') in 0.040772 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_rocket-launcher_LP.png
-  artifactKey: Guid(392f4e7b14ba2d7438cab92d7771de54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_rocket-launcher_LP.png using Guid(392f4e7b14ba2d7438cab92d7771de54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c85741e58d342bda78521ce23b6bcb') in 0.048002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_bow-modern_LP.png
-  artifactKey: Guid(6043467a9745b22479a018779aa0b23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_bow-modern_LP.png using Guid(6043467a9745b22479a018779aa0b23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62b25e21fc52e380d3b4037decf7c17') in 0.043911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_sword-pirate_LP.png
-  artifactKey: Guid(372e3ae982fa0af4e89deea4061dbfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Icon Pack/Images/_Icons/Weapons/icon_sword-pirate_LP.png using Guid(372e3ae982fa0af4e89deea4061dbfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce3b431b260a1639863e9d7cd29929c') in 0.044808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.528527 seconds.
-  path: Assets/Resources/InventoryImages/burger.png
-  artifactKey: Guid(fd29dd0d563976545aca3abc56201542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/InventoryImages/burger.png using Guid(fd29dd0d563976545aca3abc56201542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b939895e0c9839119d7d37878759c1f') in 0.053321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Resources/InventoryImages/drug.png
-  artifactKey: Guid(b8a1bf34278cd7245b9164dd62a30451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/InventoryImages/drug.png using Guid(b8a1bf34278cd7245b9164dd62a30451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084b928fc9ee83d7f9928ec56d7aab70') in 0.037299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Resources/InventoryImages/gunpowder.png
-  artifactKey: Guid(c654cba8b1e8d25428069ff1036444a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/InventoryImages/gunpowder.png using Guid(c654cba8b1e8d25428069ff1036444a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11afdf12048b592c352b8c465d6f6011') in 0.040054 seconds 
+  Time since last request: 843389.327084 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(485723061730a9a49b417bc526a43495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(485723061730a9a49b417bc526a43495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0027753b6d2b6627622a4311b45166d') in 0.030495 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008084 seconds.
+Registered in 0.011266 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
 Mono: successfully reloaded assembly
-- Completed reload, in  0.831 seconds
+- Completed reload, in  0.975 seconds
 Domain Reload Profiling:
-	ReloadAssembly (832ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (976ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (607ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (205ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (253ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (157ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4131 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4493.
+Memory consumption went from 165.8 MB to 164.2 MB.
+Total: 2.654300 ms (FindLiveObjects: 0.176400 ms CreateObjectMapping: 0.091200 ms MarkObjects: 1.943600 ms  DeleteObjects: 0.442100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.724337 seconds.
+  path: Assets/Photon
+  artifactKey: Guid(98951132346795f438babe7a3183da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon using Guid(98951132346795f438babe7a3183da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9b6b4c61759d2bb6bfd1d8cb1daa9e') in 0.005247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.953046 seconds.
+  path: Assets/Photon/PhotonChat
+  artifactKey: Guid(ea05e6479d592944d955c2a5e1a6d6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat using Guid(ea05e6479d592944d955c2a5e1a6d6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de8b4b050bae06245e0f3aaf9835387') in 0.001312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.156510 seconds.
+  path: Assets/Photon/PhotonChat/Code
+  artifactKey: Guid(af83a98aaa4f7b64eb7fcec95ee7b1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code using Guid(af83a98aaa4f7b64eb7fcec95ee7b1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caab1e52e77bd0f5f87c23569d5635c') in 0.002338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058394 seconds.
+  path: Assets/Photon/PhotonChat/Code/PhotonChat.asmdef
+  artifactKey: Guid(08a110bd598f7604f9519c2d7e1fb3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/PhotonChat.asmdef using Guid(08a110bd598f7604f9519c2d7e1fb3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f00b64b5f6c885783be5caa245132e') in 0.005226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.655881 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChannelCreationOptions.cs
+  artifactKey: Guid(6c1aa0fceaa2bc14eabdf85976f4e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChannelCreationOptions.cs using Guid(6c1aa0fceaa2bc14eabdf85976f4e2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67099689a794444d26460edc0eb49c5') in 0.005773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.120724 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChannelWellKnownProperties.cs
+  artifactKey: Guid(5eb508ffb7b7b0f47882f0087a668283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChannelWellKnownProperties.cs using Guid(5eb508ffb7b7b0f47882f0087a668283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab89f98ccc5a6eeb510a0e693ac0196') in 0.001894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.274258 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatAppSettings.cs
+  artifactKey: Guid(87776a9b1f405644abcc38ecd70c37fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatAppSettings.cs using Guid(87776a9b1f405644abcc38ecd70c37fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c47a119efb8897823bea48eb3b9af2c') in 0.022667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.500471 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatChannel.cs
+  artifactKey: Guid(35b2a4878e5e99e438c97fbe8dbbd863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatChannel.cs using Guid(35b2a4878e5e99e438c97fbe8dbbd863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6220dec427f71dd424c6dcc6a7cfed') in 0.001300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.706281 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatClient.cs
+  artifactKey: Guid(692e391fa2a297c45b3d530aa85be610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatClient.cs using Guid(692e391fa2a297c45b3d530aa85be610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a102983191747b95dabdbb63d22d410') in 0.001519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.600814 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatDisconnectCause.cs
+  artifactKey: Guid(b90b85043f1857f43b94fd00edfc1ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatDisconnectCause.cs using Guid(b90b85043f1857f43b94fd00edfc1ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe02eaf98a53dfc46ea963e35f0364bf') in 0.001580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.271341 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatEventCode.cs
+  artifactKey: Guid(188e4a680bce12d4cbad8d57a24f7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonChat/Code/ChatEventCode.cs using Guid(188e4a680bce12d4cbad8d57a24f7d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b40125cc7f50d48a9b1d3dbaef88707') in 0.001585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.736167 seconds.
+  path: Assets/Scripts/Title
+  artifactKey: Guid(e47b6d370086099499c7a05028c3c0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Title using Guid(e47b6d370086099499c7a05028c3c0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8155d7f8aa06ddf3737bc8cbfca1e8') in 0.001569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.074249 seconds.
+  path: Assets/Scripts/Title/LoginButton.cs
+  artifactKey: Guid(ec15e98e31abebb42bb16c1d45610f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Title/LoginButton.cs using Guid(ec15e98e31abebb42bb16c1d45610f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9d828f78a91e6863d7491ef1466368') in 0.002109 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010684 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (946ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (731ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4511.
+Memory consumption went from 165.7 MB to 164.1 MB.
+Total: 2.150900 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.085700 ms MarkObjects: 1.633100 ms  DeleteObjects: 0.253800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.163525 seconds.
+  path: Assets/Fonts/neodgm_textmeshpro.asset
+  artifactKey: Guid(30dc94420f3968f48857dbaad37582ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/neodgm_textmeshpro.asset using Guid(30dc94420f3968f48857dbaad37582ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2efc7b1af37f7a659ceb07c1c83e83') in 0.195404 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010412 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (366ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3340 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (1.6 MB). Loaded Objects now: 3935.
-Memory consumption went from 145.3 MB to 143.7 MB.
-Total: 2.131800 ms (FindLiveObjects: 0.163800 ms CreateObjectMapping: 0.070900 ms MarkObjects: 1.661100 ms  DeleteObjects: 0.235000 ms)
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4570.
+Memory consumption went from 170.1 MB to 168.5 MB.
+Total: 2.253000 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.091500 ms MarkObjects: 1.694800 ms  DeleteObjects: 0.278100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012404 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (993ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (139ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4587.
+Memory consumption went from 170.1 MB to 168.5 MB.
+Total: 2.360800 ms (FindLiveObjects: 0.235800 ms CreateObjectMapping: 0.102500 ms MarkObjects: 1.671800 ms  DeleteObjects: 0.349700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -459,11 +645,1341 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.757128 seconds.
-  path: Assets/Weapon_Asset/Models/BulletLite_02.fbx
-  artifactKey: Guid(845a646869bbb9449b4bb2c5973d6dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapon_Asset/Models/BulletLite_02.fbx using Guid(845a646869bbb9449b4bb2c5973d6dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad048685eaf2f6ea01984f7e440fc9fc') in 0.078981 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 114.433342 seconds.
+  path: Assets/Scripts/Title/Launcher.cs
+  artifactKey: Guid(6a89b67da0828614385f12d996c3227a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Title/Launcher.cs using Guid(6a89b67da0828614385f12d996c3227a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c145e201d90d2db42c82cd3e1122e43') in 0.007010 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012215 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (967ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4605.
+Memory consumption went from 170.2 MB to 168.6 MB.
+Total: 2.170900 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.077500 ms MarkObjects: 1.647000 ms  DeleteObjects: 0.257300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013467 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (768ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4133 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4622.
+Memory consumption went from 170.2 MB to 168.6 MB.
+Total: 2.453800 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.088500 ms MarkObjects: 1.859500 ms  DeleteObjects: 0.302400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 210.528848 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(485723061730a9a49b417bc526a43495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(485723061730a9a49b417bc526a43495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394e91aa118531716b41a51eb5c4b528') in 0.030844 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009876 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (712ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4639.
+Memory consumption went from 170.2 MB to 168.6 MB.
+Total: 2.933300 ms (FindLiveObjects: 0.229700 ms CreateObjectMapping: 0.178900 ms MarkObjects: 2.257800 ms  DeleteObjects: 0.266000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011773 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (140ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4656.
+Memory consumption went from 170.3 MB to 168.7 MB.
+Total: 2.234200 ms (FindLiveObjects: 0.193900 ms CreateObjectMapping: 0.091400 ms MarkObjects: 1.684800 ms  DeleteObjects: 0.263300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010002 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.884 seconds
+Domain Reload Profiling:
+	ReloadAssembly (884ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4673.
+Memory consumption went from 170.3 MB to 168.7 MB.
+Total: 2.354200 ms (FindLiveObjects: 0.187400 ms CreateObjectMapping: 0.086300 ms MarkObjects: 1.782600 ms  DeleteObjects: 0.297200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013160 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.086 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1086ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (145ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4690.
+Memory consumption went from 170.3 MB to 168.7 MB.
+Total: 2.643000 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.184700 ms MarkObjects: 1.853000 ms  DeleteObjects: 0.371700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 707.712993 seconds.
+  path: Assets/Scripts/GamePlay/Chat.cs
+  artifactKey: Guid(54cf7fc0b31c24cfe91a65a55e6746a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GamePlay/Chat.cs using Guid(54cf7fc0b31c24cfe91a65a55e6746a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cac33ce40ad15214d7b063beefc6de') in 0.010683 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010285 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Domain Reload Profiling:
+	ReloadAssembly (954ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (734ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (362ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4707.
+Memory consumption went from 170.4 MB to 168.8 MB.
+Total: 2.187200 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.086200 ms MarkObjects: 1.665400 ms  DeleteObjects: 0.260000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011179 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (833ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (155ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4724.
+Memory consumption went from 170.4 MB to 168.8 MB.
+Total: 2.624700 ms (FindLiveObjects: 0.214900 ms CreateObjectMapping: 0.095000 ms MarkObjects: 1.996000 ms  DeleteObjects: 0.317700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 299.612245 seconds.
+  path: Assets/Scripts/Interaction/InteractCollision.cs
+  artifactKey: Guid(74555661ab1fb401ea5d27eae2c038a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interaction/InteractCollision.cs using Guid(74555661ab1fb401ea5d27eae2c038a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb993dc75c0a2e6095ecfc0dfb1d4036') in 0.008563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.653615 seconds.
+  path: Assets/Scripts/Player/MovePause.cs
+  artifactKey: Guid(50cefde2239c5684faaa345787c1eaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/MovePause.cs using Guid(50cefde2239c5684faaa345787c1eaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259d066283f9d7458182cff9d2966e22') in 0.003293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.903702 seconds.
+  path: Assets/ToolsAndTests/ToolsAndTests.asmdef
+  artifactKey: Guid(707048daf1f0fb84a8ebc4da92e0e134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToolsAndTests/ToolsAndTests.asmdef using Guid(707048daf1f0fb84a8ebc4da92e0e134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1b2bf565ab7ea9ef1ab0d51b85c74c') in 0.001617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.416999 seconds.
+  path: Assets/UI/BuffPanel.prefab
+  artifactKey: Guid(c1ea0dbb65b154e49af3e5ad5a46036a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/BuffPanel.prefab using Guid(c1ea0dbb65b154e49af3e5ad5a46036a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1f917684a6754eb38871ad1dddd917') in 0.131326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UI/PlayerNameText.prefab
+  artifactKey: Guid(d725c887dc00841309bdc5bab1804b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/PlayerNameText.prefab using Guid(d725c887dc00841309bdc5bab1804b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4db85350b58c1ba50bd7940fcae8431') in 0.107205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.885810 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(9d4bdf7b6aa8b9344979b13ed560464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(9d4bdf7b6aa8b9344979b13ed560464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d86f9b7db270dcf472b5e4b65438028') in 0.001498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.402884 seconds.
+  path: Assets/Scenes/Title.unity
+  artifactKey: Guid(26daf53572fec9b4c9d771f26f4cc1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title.unity using Guid(26daf53572fec9b4c9d771f26f4cc1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c532fdd32c80bc04d6b742a3de5ddb5') in 0.001836 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012630 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (760ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4741.
+Memory consumption went from 170.4 MB to 168.8 MB.
+Total: 2.355700 ms (FindLiveObjects: 0.191600 ms CreateObjectMapping: 0.087400 ms MarkObjects: 1.796200 ms  DeleteObjects: 0.279700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010295 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.987 seconds
+Domain Reload Profiling:
+	ReloadAssembly (988ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (785ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (157ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.6 MB). Loaded Objects now: 4758.
+Memory consumption went from 170.5 MB to 168.9 MB.
+Total: 2.462300 ms (FindLiveObjects: 0.202300 ms CreateObjectMapping: 0.103000 ms MarkObjects: 1.843000 ms  DeleteObjects: 0.312900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027446 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1070ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.6 MB). Loaded Objects now: 4775.
+Memory consumption went from 171.7 MB to 170.1 MB.
+Total: 2.322700 ms (FindLiveObjects: 0.197500 ms CreateObjectMapping: 0.090100 ms MarkObjects: 1.751900 ms  DeleteObjects: 0.282400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1194.624427 seconds.
+  path: Assets/Scripts/Title/DBInfo.cs
+  artifactKey: Guid(70331ab04ccd19548b6062be62fcb094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Title/DBInfo.cs using Guid(70331ab04ccd19548b6062be62fcb094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf7f148b4cad7c8117766a7a52787b2') in 0.009604 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044244 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (732ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (120ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4155 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.6 MB). Loaded Objects now: 4793.
+Memory consumption went from 171.8 MB to 170.2 MB.
+Total: 2.452600 ms (FindLiveObjects: 0.192600 ms CreateObjectMapping: 0.237500 ms MarkObjects: 1.731400 ms  DeleteObjects: 0.290300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022137 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\PC\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+Photon.Compression.Internal.TypeCatalogue:EnsureExists () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:212)
+Photon.Compression.Internal.TypeCatalogue:Initialize () (at Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs:58)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/PackObject/CodeGen/TypeCatalogue.cs line 212]
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/Photon/PhotonUtilities\PackObject\CodeGen\Editor\Resources\TypeCatalogue.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Photon.Compression.Internal.TypeCatalogue.EnsureExists () [0x0005e] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:212 
+  at Photon.Compression.Internal.TypeCatalogue.Initialize () [0x00005] in C:\Users\PC\Documents\GitHub\ohms\ohms-source\Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeCatalogue.cs:58 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <a40b0ad4a868437393ad434631fb6ff1>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <5092d70d16a64dd9a555dd50f38aead0>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+GameObject (named 'BigAsteroid') references runtime script in scene file. Fixing!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ResourcesAPI:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll (string,System.Type)
+UnityEngine.Resources:LoadAll<Photon.Utilities.SettingsScriptableObjectBase> (string)
+Photon.Utilities.SettingsScriptableObjectBase:RegisterAllSettingsSOs () (at Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs:29)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/Photon/PhotonUtilities/SettingsScriptableObject/SettingsScriptableObject.cs line 29]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (728ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (120ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4154 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (1.6 MB). Loaded Objects now: 4809.
+Memory consumption went from 171.8 MB to 170.2 MB.
+Total: 2.201500 ms (FindLiveObjects: 0.189400 ms CreateObjectMapping: 0.087300 ms MarkObjects: 1.647700 ms  DeleteObjects: 0.276500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
