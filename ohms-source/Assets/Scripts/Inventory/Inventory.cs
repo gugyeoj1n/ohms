@@ -18,13 +18,13 @@ public class Inventory : MonoBehaviour
     private string[] itemArray = new string[] {
         "battery", "bolt", "bullet", "circuit", "cutter",
         "fabric", "gear", "lighter", "nail", "pipe",
-        "revolver", "rope", "tape", "wire", "wrench",
+        "gun", "rope", "tape", "wire", "wrench",
         "ironbar", "battery2", "flashlight", "crowbar", "drug",
         "gunpowder", "radio", "burger", "water",
     };
 
     private string[] handItemArray = new string[] {
-        "revolver", "flashlight", "crowbar", "fabric", "gear", "lighter", "nail", "pipe",
+        "gun", "flashlight", "crowbar", "fabric", "gear", "lighter", "nail", "pipe",
     };
 
     public List<Item> inven = new List<Item>();
