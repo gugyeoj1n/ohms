@@ -16,7 +16,10 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
 
     void Start()
     {
-        name = GameObject.Find("Canvas").transform.Find("NameInput").transform.GetComponent<TMP_InputField>();
     }
 
+    void Update()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
 }
