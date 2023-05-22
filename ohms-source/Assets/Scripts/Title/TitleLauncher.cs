@@ -18,6 +18,8 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
     public TMP_Text loginStatusText;
     public TMP_Text errorText;
     public GameObject loginButtonText;
+    public Button loginButton;
+    public TMP_Text statusText;
     AudioSource audio;
     public Slider soundSlider;
     
@@ -51,6 +53,10 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
             if(menuOpened) SetMenuActive();
             if(loginOpened) SetLoginActive();
         }
+        if(id_input.isFocused == true)
+        {
+            if(Input.GetKeyDown(KeyCode.Tab)) pw_input.Select();
+        }
     }
 
     public void ControlVolume()
@@ -65,6 +71,11 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
 
     public void GameStart()
     {
+        if(PhotonNetwork.NickName == "")
+        {
+            statusText.text = "로그인해 주세요!";
+            return;
+        }
         SceneManager.LoadScene(1);
     }
 
@@ -102,6 +113,7 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
                     pw_input.text = "";
                     errorText.text = "";
                     isLogined = true;
+                    statusText.text = "";
                     loginButtonText.GetComponent<TMP_Text>().text = "Logout";
                 } else
                 {
