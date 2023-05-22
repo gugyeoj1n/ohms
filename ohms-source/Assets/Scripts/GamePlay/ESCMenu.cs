@@ -5,9 +5,8 @@ using UnityEngine.UI;
 
 public class ESCMenu : MonoBehaviour
 {
-    public float maxVolume = 0.35f;
     GameObject Menu;
-    AudioSource backgroundMusic;
+    AudioSource audioManager;
     public Slider soundSlider;
     GameManager gameManager;
 
@@ -15,7 +14,8 @@ public class ESCMenu : MonoBehaviour
     {
         gameManager = GetComponent<GameManager>();
         Menu = GameObject.Find("Canvas").transform.Find("Menu").transform.gameObject;
-        backgroundMusic = GetComponent<AudioSource>();
+        audioManager = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
+        soundSlider.value = audioManager.volume;
     }
 
     void Update()
@@ -36,7 +36,7 @@ public class ESCMenu : MonoBehaviour
 
     public void ControlVolume()
     {
-        backgroundMusic.volume = maxVolume * soundSlider.value;
+        audioManager.volume = soundSlider.value;
     }
 
     public void ContinueGame()

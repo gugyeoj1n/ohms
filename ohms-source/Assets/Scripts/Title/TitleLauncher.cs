@@ -18,6 +18,8 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
     public TMP_Text loginStatusText;
     public TMP_Text errorText;
     public GameObject loginButtonText;
+    AudioSource audio;
+    public Slider soundSlider;
     
     bool isLogined = false;
     bool menuOpened = false;
@@ -32,6 +34,7 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        audio = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
         TextAsset textFile = Resources.Load<TextAsset>("Database/link");
         MONGO_URI = textFile.text;
         mongoClient = new MongoClient(MONGO_URI);
@@ -48,6 +51,11 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
             if(menuOpened) SetMenuActive();
             if(loginOpened) SetLoginActive();
         }
+    }
+
+    public void ControlVolume()
+    {
+        audio.volume = soundSlider.value;
     }
 
     public void ExitGame()

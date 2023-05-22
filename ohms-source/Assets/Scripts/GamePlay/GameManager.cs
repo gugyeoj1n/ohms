@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
         isStarted = true;
         string[] startChat = new string[] { "System", "gugyeoj1n 님과 hyunseo24 님의 게임이 시작되었습니다!" };
         chat.WriteChat(startChat);
-        GetComponent<AudioSource>().Play();
+        //GetComponent<AudioSource>().Play();
         player.GetComponent<PlayerMove>().enabled = true;
         player.GetComponent<PlayerInput>().enabled = true;
         player.GetComponent<InventoryOpen>().enabled = true;
