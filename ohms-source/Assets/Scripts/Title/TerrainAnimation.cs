@@ -10,7 +10,7 @@ public class TerrainAnimation : MonoBehaviour
 
     void Start()
     {
-        speed = Random.Range(0.001f, 0.002f);
+        speed = Random.Range(0.004f, 0.005f);
     }
 
     void Update()
