@@ -1,4 +1,3 @@
-using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,8 +32,8 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
 
     void Start()
     {
-        StreamReader sr = new StreamReader("Assets/Database/link.txt");
-        MONGO_URI = sr.ReadLine();
+        TextAsset textFile = Resources.Load<TextAsset>("Database/link");
+        MONGO_URI = textFile.text;
         mongoClient = new MongoClient(MONGO_URI);
         db = mongoClient.GetDatabase(DB_NAME);
         Menu = GameObject.Find("Canvas").transform.Find("Menu").transform.gameObject;
