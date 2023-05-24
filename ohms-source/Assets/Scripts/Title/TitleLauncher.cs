@@ -37,8 +37,9 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
     void Start()
     {
         audio = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
-        TextAsset textFile = Resources.Load<TextAsset>("Database/link");
-        MONGO_URI = textFile.text;
+        //TextAsset textFile = Resources.Load<TextAsset>("Database/link");
+        //MONGO_URI = textFile.text;
+        MONGO_URI = "mongodb+srv://gugyeoj1n:woojin9821@ohms-db.6nxwi80.mongodb.net/?retryWrites=true&w=majority";
         mongoClient = new MongoClient(MONGO_URI);
         db = mongoClient.GetDatabase(DB_NAME);
         Menu = GameObject.Find("Canvas").transform.Find("Menu").transform.gameObject;
