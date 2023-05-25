@@ -14,8 +14,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public Dictionary<string, GameObject> roomDict = new Dictionary<string, GameObject>();
     public GameObject RoomPrefab;
     public Transform scrollContent;
-    public GameObject CreatePanel;
-    public TMP_InputField roomNameInput;
     public GameObject Lobby;
     public GameObject ConnectText;
 
@@ -23,7 +21,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public GameObject RateText;
     public GameObject MoneyText;
 
-    bool isCreateOpened = false;
 
     void Awake()
     {
@@ -39,13 +36,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         PhotonNetwork.ConnectUsingSettings();
     }
 
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            if(isCreateOpened) OpenCreatePanel();
-        }
-    }
+    
 
     public override void OnConnectedToMaster()
     {
@@ -86,23 +77,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
                 }
             }
         }
-    }
-
-    public void OpenCreatePanel()
-    {
-        isCreateOpened = !isCreateOpened;
-        CreatePanel.SetActive(isCreateOpened);
-    }
-
-    public void CreateNewRoom()
-    {
-        RoomOptions ro = new RoomOptions();
-        ro.IsOpen = true;
-        ro.IsVisible = true;
-        ro.MaxPlayers = 2;
-        string roomNameText = roomNameInput.text;
-        PhotonNetwork.CreateRoom(roomNameText, ro);
-        Debug.Log("CREATE NEW ROOM");
     }
 
     public override void OnJoinedRoom()
