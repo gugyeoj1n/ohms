@@ -22,6 +22,8 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
     public TMP_Text statusText;
     AudioSource audio;
     public Slider soundSlider;
+
+    PlayerInfo playerInfo;
     
     bool isLogined = false;
     bool menuOpened = false;
@@ -36,6 +38,7 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        playerInfo = GameObject.Find("PlayerInfo").gameObject.GetComponent<PlayerInfo>();
         audio = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
         //TextAsset textFile = Resources.Load<TextAsset>("Database/link");
         //MONGO_URI = textFile.text;
@@ -109,6 +112,9 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
                 if(checkUser.GetValue("password") == pw_input.text)
                 {
                     PhotonNetwork.NickName = id_input.text;
+                    PlayerInfo.PlayerName = id_input.text;
+                    PlayerInfo.WinRate = checkUser.GetValue("winRate").AsDouble;
+                    PlayerInfo.Money = checkUser.GetValue("money").AsInt32;
                     loginStatusText.text = string.Format("로그인 상태 : <#67FF8C>{0}", id_input.text);
                     id_input.text = "";
                     pw_input.text = "";
@@ -157,9 +163,10 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
             errorText.text = "<#67FF8C>계정이 생성되었습니다!";
             users.InsertOne(new BsonDocument
             {
-                {"name", id_input.text},
-                {"password", pw_input.text},
-                {"winRate", 0.0}
+                { "name", id_input.text },
+                { "password", pw_input.text },
+                { "winRate", 0.0 },
+                { "money", 100 },
             });
         } 
     }

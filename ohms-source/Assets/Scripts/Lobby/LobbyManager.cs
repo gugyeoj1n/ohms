@@ -19,6 +19,10 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public GameObject Lobby;
     public GameObject ConnectText;
 
+    public GameObject NameText;
+    public GameObject RateText;
+    public GameObject MoneyText;
+
     bool isCreateOpened = false;
 
     void Awake()
@@ -28,6 +32,9 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        NameText.GetComponent<TMP_Text>().text = PlayerInfo.PlayerName;
+        RateText.GetComponent<TMP_Text>().text = string.Format("Win {0}%", PlayerInfo.WinRate.ToString());
+        MoneyText.GetComponent<TMP_Text>().text = string.Format("${0}", PlayerInfo.Money.ToString());
         PhotonNetwork.GameVersion = gameVersion;
         PhotonNetwork.ConnectUsingSettings();
     }
