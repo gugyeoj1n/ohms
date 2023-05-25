@@ -32,6 +32,14 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         PhotonNetwork.ConnectUsingSettings();
     }
 
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(isCreateOpened) OpenCreatePanel();
+        }
+    }
+
     public override void OnConnectedToMaster()
     {
         Debug.Log("MASTER SERVER CONNECTED");
