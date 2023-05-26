@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class PlayerInfo : MonoBehaviour
 {
-    public static string PlayerName;
+    public static string PlayerName = "";
     public static double WinRate;
     public static int Money;
-
-    void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
 }

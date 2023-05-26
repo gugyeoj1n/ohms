@@ -38,8 +38,8 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
 
     void Start()
     {
-        playerInfo = GameObject.Find("PlayerInfo").gameObject.GetComponent<PlayerInfo>();
         audio = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
+        soundSlider.value = audio.volume;
         //TextAsset textFile = Resources.Load<TextAsset>("Database/link");
         //MONGO_URI = textFile.text;
         MONGO_URI = "mongodb+srv://gugyeoj1n:woojin9821@ohms-db.6nxwi80.mongodb.net/?retryWrites=true&w=majority";
@@ -47,6 +47,13 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
         db = mongoClient.GetDatabase(DB_NAME);
         Menu = GameObject.Find("Canvas").transform.Find("Menu").transform.gameObject;
         Login = GameObject.Find("Canvas").transform.Find("LoginBackground").transform.gameObject;
+
+        if(PlayerInfo.PlayerName != "")
+        {
+            isLogined = true;
+            loginStatusText.text = string.Format("로그인 상태 : <#67FF8C>{0}", PlayerInfo.PlayerName);
+            loginButtonText.GetComponent<TMP_Text>().text = "Logout";
+        }
     }
 
     void Update()
@@ -80,7 +87,7 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
             statusText.text = "로그인해 주세요!";
             return;
         }
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void SetMenuActive()
