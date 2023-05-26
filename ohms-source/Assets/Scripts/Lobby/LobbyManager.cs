@@ -5,11 +5,11 @@ using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
 using UnityEngine.SceneManagement;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class LobbyManager : MonoBehaviourPunCallbacks
 {
     [SerializeField]
-    private byte maxPlayersPerRoom = 2;
     string gameVersion = "1.0.0";
 
     public Dictionary<string, GameObject> roomDict = new Dictionary<string, GameObject>();
@@ -73,7 +73,13 @@ public class LobbyManager : MonoBehaviourPunCallbacks
             {
                 if(roomDict.ContainsKey(room.Name) == false)
                 {
+                    Hashtable cp = room.CustomProperties;
                     GameObject _room = Instantiate(RoomPrefab, scrollContent);
+                    _room.GetComponent<RoomData>().roomname = room.Name;
+                    _room.GetComponent<RoomData>().hostname = cp["hostName"].ToString();
+                    _room.GetComponent<RoomData>().winrate = cp["winRate"].ToString();
+                    
+                    _room.transform.GetChild(0).gameObject.GetComponent<TMP_Text>().text = room.Name;
                     roomDict.Add(room.Name, _room);
                 }
             }

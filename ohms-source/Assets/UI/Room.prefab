@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8426119517385058713}
   - component: {fileID: 8426119517385058712}
   - component: {fileID: 8426119517385058790}
+  - component: {fileID: 3644712644216903680}
   m_Layer: 5
   m_Name: Room
   m_TagString: Untagged
@@ -26,7 +27,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8426119517385058714}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -122,18 +123,38 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 3644712644216903680}
+        m_TargetAssemblyTypeName: RoomData, Assembly-CSharp
+        m_MethodName: OpenRoomInfo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3644712644216903680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8426119517385058714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f12e293aa04491fbd8922afac3995d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoPanel: {fileID: 2206943331282417381, guid: 819b83495cec54542ba9e3f9bec601df, type: 3}
+  roomNameText: {fileID: 61375702247626629, guid: a36c57591ef13b7499130123e1abbaab, type: 3}
+  roomHostText: {fileID: 9018180169502208715, guid: b9a35f769fe81c64cb705390a8a83f30, type: 3}
+  winRateText: {fileID: 7492488247214544460, guid: 3432593c6de9ad84c82bec963ba14397, type: 3}
+  NoRoomText: {fileID: 6536009428591394282, guid: 89b06999ebfe0b1449120e712a1cf52f, type: 3}
+  roomname: 
+  hostname: 
+  winrate: 
 --- !u!1 &8426119517818679617
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,7 +221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "gugyeoj1n \uB2D8\uC758 \uAC8C\uC784  |  1 / 2\n"
+  m_text: "gugyeoj1n \uB2D8\uC758 \uAC8C\uC784"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 30dc94420f3968f48857dbaad37582ee, type: 2}
   m_sharedMaterial: {fileID: 411343231608546562, guid: 30dc94420f3968f48857dbaad37582ee, type: 2}
