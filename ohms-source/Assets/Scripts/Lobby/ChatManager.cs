@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using ExitGames.Client.Photon;
 using Photon.Chat;
 using Photon.Pun;
@@ -29,6 +30,13 @@ public class ChatManager : MonoBehaviour, IChatClientListener
     {
         if(chatClient != null)
             chatClient.Service();
+
+        if(Input.GetKeyDown(KeyCode.Return))
+        {
+            ChatPublish(chatInput.text);
+            chatInput.Select();
+            EventSystem.current.SetSelectedGameObject(null);
+        }
     }
 
     public void DebugReturn(DebugLevel level, string mes)
@@ -90,5 +98,14 @@ public class ChatManager : MonoBehaviour, IChatClientListener
     public void OnStatusUpdate(string user, int status, bool gotMessage, object message)
     {
         
+    }
+
+    public void ChatPublish(string input)
+    {
+        if(input != "")
+        {
+            chatClient.PublishMessage("lobby", string.Format("[{0}] {1}", username, input));
+            chatInput.text = "";
+        }
     }
 }
