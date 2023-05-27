@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using Photon.Realtime;
 using TMPro;
+using UnityEngine.SceneManagement;
 
-public class RoomData : MonoBehaviour
+public class RoomData : MonoBehaviourPunCallbacks
 {
-    GameObject InfoPanel;
+    public GameObject InfoPanel;
     TMP_Text roomNameText;
     TMP_Text roomHostText;
     TMP_Text winRateText;
@@ -31,7 +34,6 @@ public class RoomData : MonoBehaviour
         if(!lobby.roomDict.ContainsKey(roomname))
         {
             NoRoomText.SetActive(true);
-            Debug.Log("NOROOM");
             return;
         }
         NoRoomText.SetActive(false);
@@ -39,6 +41,5 @@ public class RoomData : MonoBehaviour
         roomNameText.text = roomname;
         roomHostText.text = hostname;
         winRateText.text = string.Format("Win Rate {0}%", winrate);
-        Debug.Log("YeSROOM");
     }
 }

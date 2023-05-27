@@ -20,12 +20,17 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public GameObject ConnectText;
     public GameObject SettingPanel;
 
+    public GameObject InfoPanel;
+    public GameObject NoRoomText;
+
     public GameObject NameText;
     public GameObject RateText;
     public GameObject MoneyText;
 
     AudioSource audio;
     public Slider soundSlider;
+
+    public GameObject NowRoomName;
 
     bool settingOpened = false;
 
@@ -114,5 +119,18 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public void ControlVolume()
     {
         audio.volume = soundSlider.value;
+    }
+
+    public void JoinToRoom()
+    {
+        string nowroomtext = NowRoomName.GetComponent<TMP_Text>().text;
+        if(!roomDict.ContainsKey(nowroomtext))
+        {
+            NoRoomText.SetActive(true);
+            InfoPanel.SetActive(false);
+            return;
+        }
+        PhotonNetwork.JoinRoom(nowroomtext);
+        SceneManager.LoadScene(3);
     }
 }
