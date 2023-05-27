@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Photon.Pun;
 using Photon.Realtime;
 using TMPro;
@@ -17,10 +18,16 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public Transform scrollContent;
     public GameObject Lobby;
     public GameObject ConnectText;
+    public GameObject SettingPanel;
 
     public GameObject NameText;
     public GameObject RateText;
     public GameObject MoneyText;
+
+    AudioSource audio;
+    public Slider soundSlider;
+
+    bool settingOpened = false;
 
 
     void Awake()
@@ -30,6 +37,8 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        audio = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
+        soundSlider.value = audio.volume;
         NameText.GetComponent<TMP_Text>().text = PlayerInfo.PlayerName;
         RateText.GetComponent<TMP_Text>().text = string.Format("Win {0}%", PlayerInfo.WinRate.ToString());
         MoneyText.GetComponent<TMP_Text>().text = string.Format("${0}", PlayerInfo.Money.ToString());
@@ -94,5 +103,16 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public void ExitToTitle()
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void SettingOpen()
+    {
+        settingOpened = !settingOpened;
+        SettingPanel.SetActive(settingOpened);
+    }
+
+    public void ControlVolume()
+    {
+        audio.volume = soundSlider.value;
     }
 }
