@@ -34,7 +34,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     bool settingOpened = false;
 
-
     void Awake()
     {
         PhotonNetwork.AutomaticallySyncScene = true;
@@ -42,6 +41,8 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        GetComponent<FadeAnim>().StartFadeIn();
+
         audio = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
         soundSlider.value = audio.volume;
         NameText.GetComponent<TMP_Text>().text = PlayerInfo.PlayerName;
@@ -107,7 +108,8 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     public void ExitToTitle()
     {
-        SceneManager.LoadScene(1);
+        PhotonNetwork.Disconnect();
+        GetComponent<FadeAnim>().BackToTitle();
     }
 
     public void SettingOpen()

@@ -38,6 +38,8 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        GetComponent<FadeAnim>().StartFadeIn();
+
         audio = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
         soundSlider.value = audio.volume;
         //TextAsset textFile = Resources.Load<TextAsset>("Database/link");
@@ -87,7 +89,7 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
             statusText.text = "로그인해 주세요!";
             return;
         }
-        SceneManager.LoadScene(2);
+        GetComponent<FadeAnim>().TitleFadeOut();
     }
 
     public void SetMenuActive()
