@@ -45,7 +45,7 @@ public class CreateRoom : MonoBehaviour
         };
         ro.CustomRoomProperties = cp;
         ro.CustomRoomPropertiesForLobby = new string[] { "hostName", "winRate" };
-        PhotonNetwork.CreateRoom(roomNameText, ro);
+        PhotonNetwork.CreateRoom(roomNameText, ro, null);
         Debug.Log("CREATE NEW ROOM");
         SceneManager.LoadScene(3);
     }

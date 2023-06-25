@@ -46,7 +46,7 @@ public class ChatManager : MonoBehaviour, IChatClientListener
 
     public void OnConnected()
     {
-        Debug.Log("CONNECT!");
+        Debug.Log("CHAT SERVER CONNECT!");
         chatClient.Subscribe(new string[] { "lobby" });
         chatClient.PublishMessage("lobby", string.Format("[System] {0} 님이 접속하셨습니다.", username));
     }

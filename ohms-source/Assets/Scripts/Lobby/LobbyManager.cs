@@ -101,9 +101,10 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         }
     }
 
-    public override void OnJoinedRoom()
+    public override void OnJoinRoomFailed(short returnCode, string msg)
     {
-        Debug.Log(PhotonNetwork.CurrentRoom);
+        Debug.LogFormat("Room Join Failed! {0}", returnCode);
+        Debug.LogFormat("Message : {0}", msg);
     }
 
     public void ExitToTitle()
@@ -132,7 +133,7 @@ public class LobbyManager : MonoBehaviourPunCallbacks
             InfoPanel.SetActive(false);
             return;
         }
+        Debug.LogFormat("JOIN ROOM {0}", nowroomtext);
         PhotonNetwork.JoinRoom(nowroomtext);
-        SceneManager.LoadScene(3);
     }
 }
