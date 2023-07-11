@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
+using Photon.Pun;
 
-public class PlayerMove : MonoBehaviour
+public class PlayerMove : MonoBehaviourPun
 {
     public float moveSpeed = 2.5f;
     public float rotateSpeed = 180f;
@@ -28,6 +30,8 @@ public class PlayerMove : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(!photonView.IsMine) return;
+        
         Rotate();
         Move();
         playerAnim.SetFloat("Move", playerInput.move);
