@@ -25,6 +25,7 @@ public class AttributeTable : MonoBehaviourPun
     public TMP_Text gatherText;
     public TMP_Text craftText;
     public TMP_Text resistText;
+    public TMP_Text abilityText;
     public Image SelectedIcon;
     public TMP_Text description;
 
@@ -63,6 +64,7 @@ public class AttributeTable : MonoBehaviourPun
         craft = 0;
         resist = 0;
         charNameText.text = info.name;
+        abilityText.text = info.ability;
         pointText.text = "3 Points";
         stepText.text = info.step.ToString();
         gatherText.text = info.gather.ToString();
