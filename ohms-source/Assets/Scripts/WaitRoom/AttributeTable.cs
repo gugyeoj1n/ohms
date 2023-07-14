@@ -19,6 +19,7 @@ public class AttributeTable : MonoBehaviourPun
     public GameObject ContentField;
     public GameObject CharacterButton;
 
+    public TMP_Text charNameText;
     public TMP_Text pointText;
     public TMP_Text stepText;
     public TMP_Text gatherText;
@@ -61,6 +62,7 @@ public class AttributeTable : MonoBehaviourPun
         gather = 0;
         craft = 0;
         resist = 0;
+        charNameText.text = info.name;
         pointText.text = "3 Points";
         stepText.text = info.step.ToString();
         gatherText.text = info.gather.ToString();
@@ -107,7 +109,6 @@ public class AttributeTable : MonoBehaviourPun
         {
             if(Input.GetKeyUp(KeyCode.F))
             {
-                Debug.Log("F ENTER");
                 AttributePanel.SetActive(true);
                 return;
             }
