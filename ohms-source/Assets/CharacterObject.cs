@@ -11,4 +11,5 @@ public class CharacterObject : ScriptableObject
     public int resist;
     public string ability;
     public string description;
+    public GameObject avatar;
 }

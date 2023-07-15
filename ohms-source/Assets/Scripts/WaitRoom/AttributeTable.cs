@@ -79,6 +79,7 @@ public class AttributeTable : MonoBehaviourPun
     public void Apply()
     {
         waitManager.WritePlayerSetting(player.GetComponent<PhotonView>().ViewID, selectedCharInfo);
+        CloseTable();
     }
 
     /// <summary>
