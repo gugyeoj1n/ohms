@@ -6,14 +6,27 @@ using Cinemachine;
 
 public class CameraFollow : MonoBehaviourPun
 {
+    bool followStarted = false;
+    CinemachineVirtualCamera followCam;
+
+    float minValue = 3f;
+    float maxValue = 8f;
+    
+
     public void StartFollow()
     {
         if(this.photonView.IsMine)
         {
             Debug.Log(photonView.ViewID);
-            var followCam = FindObjectOfType<CinemachineVirtualCamera>();
+            followCam = FindObjectOfType<CinemachineVirtualCamera>();
             followCam.Follow = this.transform;
             followCam.LookAt = this.transform;
+            followStarted = true;
         }
+    }
+
+    void Update()
+    {
+        float scrollWheel = Input.GetAxis("Mouse ScrollWheel");
     }
 }

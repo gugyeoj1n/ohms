@@ -4,6 +4,7 @@ using System.Runtime.Versioning;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Photon.Pun;
 using ExitGames.Client.Photon;
 using UnityEditor;
@@ -20,6 +21,11 @@ public class WaitManager : MonoBehaviourPunCallbacks, IPunObservable
     GameObject currentPlayer;
     // key 는 ViewID, value 는 세팅
     public Dictionary<int, CharacterObject> Settings;
+
+    public bool isReady = false;
+    public Image readyButton;
+    Color green = new Color(0.5f, 1f, 0.5f, 1f);
+    Color red = new Color(1f, 0.5f, 0.5f, 1f);
 
     void Awake()
     {
@@ -242,5 +248,11 @@ public class WaitManager : MonoBehaviourPunCallbacks, IPunObservable
         }
         DictionaryData dictionaryData = new DictionaryData(keys, valuesBytes);
         return dictionaryData;
+    }
+
+    public void Ready()
+    {
+        isReady = !isReady;
+        readyButton.color = (isReady) ? green : red;
     }
 }

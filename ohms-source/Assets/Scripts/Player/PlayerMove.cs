@@ -23,13 +23,12 @@ public class PlayerMove : MonoBehaviourPun
 
     void FixedUpdate()
     {
-        if(!photonView.IsMine) return;
+        //if(!photonView.IsMine) return;
         
         Rotate();
         Move();
         playerAnim.SetFloat("Move", playerInput.move);
     }
-
 
     void Move()
     {
@@ -47,4 +46,5 @@ public class PlayerMove : MonoBehaviourPun
     {
         playerAnim.SetTrigger("Gather");
     }
+
 }

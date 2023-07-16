@@ -552,6 +552,7 @@ GameObject:
   - component: {fileID: -6445616394701419619}
   - component: {fileID: -1484385465611867255}
   - component: {fileID: 3948543532667621706}
+  - component: {fileID: 638566521}
   m_Layer: 0
   m_Name: Owen
   m_TagString: Player
@@ -589,7 +590,7 @@ Animator:
   m_GameObject: {fileID: 2189600288736277913}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e8196b76e6108b74aa9c9192f64f5003, type: 3}
-  m_Controller: {fileID: 9100000, guid: 2518279a0ea64064f888decd98f15380, type: 2}
+  m_Controller: {fileID: 9100000, guid: 145563894ea3f524ba105ed84c972a64, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -652,11 +653,23 @@ MonoBehaviour:
     SynchronizeType: 1
     Name: Sprint
   - Type: 9
-    SynchronizeType: 0
+    SynchronizeType: 1
     Name: Gather
   - Type: 1
     SynchronizeType: 1
     Name: Rotate
+  - Type: 4
+    SynchronizeType: 1
+    Name: SkillActivated
+  - Type: 9
+    SynchronizeType: 1
+    Name: Combo1
+  - Type: 9
+    SynchronizeType: 1
+    Name: Combo2
+  - Type: 9
+    SynchronizeType: 1
+    Name: Combo3
   m_SynchronizeLayers:
   - SynchronizeType: 1
     LayerIndex: 0
@@ -751,6 +764,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIpref: {fileID: 6222030276907398558, guid: 27dba4d40f44d3545bff4b3482282987, type: 3}
+--- !u!114 &638566521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2189600288736277913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2737090da059f48a5ad12e43450335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isActivated: 0
+  inputCount: 0
+  triggered: {fileID: 0}
 --- !u!1 &2214734870534711357
 GameObject:
   m_ObjectHideFlags: 0

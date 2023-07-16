@@ -8,6 +8,7 @@ using TMPro;
 public class AttributeTable : MonoBehaviourPun
 {
     private bool opened = false;
+    public bool tableOpened = false;
     private GameObject player;
     private Outline outline;
 
@@ -112,7 +113,8 @@ public class AttributeTable : MonoBehaviourPun
         {
             if(Input.GetKeyUp(KeyCode.F))
             {
-                AttributePanel.SetActive(true);
+                tableOpened = true;
+                AttributePanel.SetActive(tableOpened);
                 return;
             }
         }
@@ -120,6 +122,7 @@ public class AttributeTable : MonoBehaviourPun
 
     public void CloseTable()
     {
+        tableOpened = false;
         AttributePanel.SetActive(false);
     }
 

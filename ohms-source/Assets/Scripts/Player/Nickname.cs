@@ -29,6 +29,7 @@ public class Nickname : MonoBehaviour
     void Awake()
     {
         this.transform.SetParent(GameObject.Find("Canvas").GetComponent<Transform>(), false);
+        this.transform.SetSiblingIndex(0);
     }
 
     void FixedUpdate()
