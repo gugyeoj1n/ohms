@@ -11,7 +11,7 @@ public class CameraFollow : MonoBehaviourPun
 
     float minValue = 3f;
     float maxValue = 8f;
-    
+    float currentValue = 5f;
 
     public void StartFollow()
     {
@@ -28,5 +28,7 @@ public class CameraFollow : MonoBehaviourPun
     void Update()
     {
         float scrollWheel = Input.GetAxis("Mouse ScrollWheel");
+        currentValue -= scrollWheel;
+        followCam.m_Lens.OrthographicSize = Mathf.Clamp(currentValue, minValue, maxValue);
     }
 }

@@ -23,7 +23,7 @@ public class PlayerMove : MonoBehaviourPun
 
     void FixedUpdate()
     {
-        //if(!photonView.IsMine) return;
+        if(!photonView.IsMine) return;
         
         Rotate();
         Move();

@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
 using UnityEngine;
 
-public class Owen : MonoBehaviour
+public class Owen : MonoBehaviourPun
 {
     private Animator playerAnim;
     [SerializeField]
@@ -21,6 +22,7 @@ public class Owen : MonoBehaviour
 
     void Update()
     {
+        if(!photonView.IsMine) return;
         if(Input.GetKeyDown(KeyCode.Q))
         {
             if(!isActivated)

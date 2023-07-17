@@ -51,7 +51,7 @@ public class WaitManager : MonoBehaviourPunCallbacks, IPunObservable
         // 캐릭터 재소환
         Destroy(currentPlayer);
         photonView.RPC(nameof(ClearPlayer), RpcTarget.Others, id);
-        currentPlayer = PhotonNetwork.Instantiate(info.avatar.name, new Vector3(0f, 1f, 0f), Quaternion.identity, 0);
+        currentPlayer = PhotonNetwork.Instantiate("Characters/" + info.avatar.name, new Vector3(0f, 1f, 0f), Quaternion.identity, 0);
         currentPlayer.GetComponent<CameraFollow>().StartFollow();
         foreach(KeyValuePair<int, CharacterObject> pair in Settings)
             Debug.LogFormat("{0} {1}", pair.Key, pair.Value);
@@ -114,7 +114,7 @@ public class WaitManager : MonoBehaviourPunCallbacks, IPunObservable
 
     public override void OnJoinedRoom()
     {
-        currentPlayer = PhotonNetwork.Instantiate(this.playerPref.name, new Vector3(0f, 1f, 0f), Quaternion.identity, 0);
+        currentPlayer = PhotonNetwork.Instantiate("Characters/" + this.playerPref.name, new Vector3(0f, 1f, 0f), Quaternion.identity, 0);
         currentPlayer.GetComponent<CameraFollow>().StartFollow();
         ManageCards();
         //AddPlayerSetting(player.GetComponent<PhotonView>().ViewID, new CharacterObject());
