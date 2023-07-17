@@ -41,7 +41,7 @@ public class WaitManager : MonoBehaviourPunCallbacks, IPunObservable
             Settings.Add(id, setting);
             foreach(KeyValuePair<int, CharacterObject> pair in Settings)
                 Debug.LogFormat("{0} {1}", pair.Key, pair.Value);
-            photonView.RPC(nameof(SyncDictionary), RpcTarget.All, CreateDictionaryData());
+            //photonView.RPC(nameof(SyncDictionary), RpcTarget.All, CreateDictionaryData());
         }
     }
 
@@ -55,7 +55,7 @@ public class WaitManager : MonoBehaviourPunCallbacks, IPunObservable
         currentPlayer.GetComponent<CameraFollow>().StartFollow();
         foreach(KeyValuePair<int, CharacterObject> pair in Settings)
             Debug.LogFormat("{0} {1}", pair.Key, pair.Value);
-        photonView.RPC(nameof(SyncDictionary), RpcTarget.All, CreateDictionaryData());
+        //photonView.RPC(nameof(SyncDictionary), RpcTarget.All, CreateDictionaryData());
     }
 
     [PunRPC]
@@ -103,7 +103,7 @@ public class WaitManager : MonoBehaviourPunCallbacks, IPunObservable
 
     public override void OnPlayerEnteredRoom(Player newPlayer)
     {
-        photonView.RPC(nameof(SyncDictionary), RpcTarget.All, CreateDictionaryData());
+        //photonView.RPC(nameof(SyncDictionary), RpcTarget.All, CreateDictionaryData());
         ManageCards();
     }
 
@@ -131,6 +131,10 @@ public class WaitManager : MonoBehaviourPunCallbacks, IPunObservable
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
+
+    }
+    /*public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
         if (stream.IsWriting)
         {
             byte[] dictionaryBytes = DictionaryToBytes(Settings);
@@ -142,7 +146,7 @@ public class WaitManager : MonoBehaviourPunCallbacks, IPunObservable
             Dictionary<int, CharacterObject> dictionary = DictionaryFromBytes(dictionaryBytes);
             Settings = dictionary;
         }
-    }
+    }*/
 
     private Dictionary<int, CharacterObject> DictionaryFromDictionaryData(DictionaryData dictionaryData)
     {

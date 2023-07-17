@@ -1098,12 +1098,12 @@ GameObject:
   - component: {fileID: 5487403618235659724}
   - component: {fileID: 2514316538740332271}
   - component: {fileID: 7293469059115212104}
-  - component: {fileID: 545693067315390535}
   - component: {fileID: 4616158987058071152}
   - component: {fileID: 4095398094842444179}
   - component: {fileID: 3028349761700029385}
   - component: {fileID: 8686826653434888528}
   - component: {fileID: 1623772703}
+  - component: {fileID: 545693067315390535}
   m_Layer: 0
   m_Name: Priest Paul
   m_TagString: Untagged
@@ -1206,39 +1206,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
   rotateSpeed: 180
---- !u!114 &545693067315390535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3439451847435398203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowLayerWeightsInspector: 1
-  ShowParameterInspector: 1
-  m_SynchronizeParameters:
-  - Type: 1
-    SynchronizeType: 1
-    Name: Move
-  - Type: 4
-    SynchronizeType: 1
-    Name: Sprint
-  - Type: 9
-    SynchronizeType: 0
-    Name: Gather
-  - Type: 1
-    SynchronizeType: 1
-    Name: Rotate
-  - Type: 9
-    SynchronizeType: 1
-    Name: SkillActivated
-  m_SynchronizeLayers:
-  - SynchronizeType: 1
-    LayerIndex: 0
 --- !u!114 &4616158987058071152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1319,6 +1286,39 @@ MonoBehaviour:
   isActivated: 0
   BuffParticle: {fileID: 3215700451223272307, guid: 83a54d2f03f64014cb91e54728b2bc48, type: 3}
   cooldown: 5
+--- !u!114 &545693067315390535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3439451847435398203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 1
+    SynchronizeType: 1
+    Name: Move
+  - Type: 4
+    SynchronizeType: 1
+    Name: Sprint
+  - Type: 9
+    SynchronizeType: 0
+    Name: Gather
+  - Type: 1
+    SynchronizeType: 1
+    Name: Rotate
+  - Type: 9
+    SynchronizeType: 1
+    Name: SkillActivated
+  m_SynchronizeLayers:
+  - SynchronizeType: 1
+    LayerIndex: 0
 --- !u!1 &3599724652701747034
 GameObject:
   m_ObjectHideFlags: 0

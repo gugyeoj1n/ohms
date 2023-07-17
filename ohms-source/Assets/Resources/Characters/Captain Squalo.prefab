@@ -1011,12 +1011,12 @@ GameObject:
   - component: {fileID: 6836443090472606718}
   - component: {fileID: 6836443090472606719}
   - component: {fileID: 6836443090472606720}
-  - component: {fileID: 6836443090472606721}
   - component: {fileID: 6836443090472606722}
   - component: {fileID: 6836443090472606723}
   - component: {fileID: 6836443090472606724}
   - component: {fileID: 6836443090472606725}
   - component: {fileID: 3078527197244397137}
+  - component: {fileID: 6836443090472606721}
   m_Layer: 0
   m_Name: Captain Squalo
   m_TagString: Player
@@ -1124,44 +1124,11 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 6836443090472606721}
   - {fileID: 6836443090472606722}
+  - {fileID: 6836443090472606721}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
---- !u!114 &6836443090472606721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8320200901891187597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowLayerWeightsInspector: 1
-  ShowParameterInspector: 1
-  m_SynchronizeParameters:
-  - Type: 1
-    SynchronizeType: 1
-    Name: Move
-  - Type: 4
-    SynchronizeType: 1
-    Name: Sprint
-  - Type: 9
-    SynchronizeType: 1
-    Name: Gather
-  - Type: 1
-    SynchronizeType: 1
-    Name: Rotate
-  - Type: 9
-    SynchronizeType: 0
-    Name: SkillActivated
-  m_SynchronizeLayers:
-  - SynchronizeType: 1
-    LayerIndex: 0
 --- !u!114 &6836443090472606722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1232,6 +1199,39 @@ MonoBehaviour:
   isActivated: 0
   Cannon: {fileID: 25264459138468496, guid: c4db3679ace3e4247a1276f8aae5d4b6, type: 3}
   cooldown: 5
+--- !u!114 &6836443090472606721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8320200901891187597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 1
+    SynchronizeType: 1
+    Name: Move
+  - Type: 4
+    SynchronizeType: 1
+    Name: Sprint
+  - Type: 9
+    SynchronizeType: 1
+    Name: Gather
+  - Type: 1
+    SynchronizeType: 1
+    Name: Rotate
+  - Type: 9
+    SynchronizeType: 0
+    Name: SkillActivated
+  m_SynchronizeLayers:
+  - SynchronizeType: 1
+    LayerIndex: 0
 --- !u!1 &8416240641765742624
 GameObject:
   m_ObjectHideFlags: 0

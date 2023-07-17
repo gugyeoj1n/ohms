@@ -762,10 +762,11 @@ GameObject:
   - component: {fileID: 3067858652085052650}
   - component: {fileID: 5227935063813363176}
   - component: {fileID: 5768664778135027922}
-  - component: {fileID: 8357886499117215295}
+  - component: {fileID: 3017307029101425056}
   - component: {fileID: 1087469422095186893}
   - component: {fileID: 1916695572803167949}
   - component: {fileID: -3976431316040924787}
+  - component: {fileID: 8357886499117215295}
   m_Layer: 0
   m_Name: Doctor 41
   m_TagString: Untagged
@@ -801,7 +802,7 @@ Animator:
   m_GameObject: {fileID: 3125855342380702850}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: cb57f7c83ae84d046a752b96f7843b2a, type: 3}
-  m_Controller: {fileID: 9100000, guid: 2518279a0ea64064f888decd98f15380, type: 2}
+  m_Controller: {fileID: 9100000, guid: 36e973c76366a494da93cfb680e6bc75, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -880,7 +881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
   rotateSpeed: 180
---- !u!114 &8357886499117215295
+--- !u!114 &3017307029101425056
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -889,30 +890,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3125855342380702850}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Script: {fileID: 11500000, guid: a31bd48cbbbfb6645a70ef443a06acd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowLayerWeightsInspector: 1
-  ShowParameterInspector: 1
-  m_SynchronizeParameters:
-  - Type: 1
-    SynchronizeType: 1
-    Name: Move
-  - Type: 4
-    SynchronizeType: 1
-    Name: Sprint
-  - Type: 9
-    SynchronizeType: 0
-    Name: Gather
-  - Type: 1
-    SynchronizeType: 1
-    Name: Rotate
-  - Type: 9
-    SynchronizeType: 0
-    Name: Skill
-  m_SynchronizeLayers:
-  - SynchronizeType: 1
-    LayerIndex: 0
+  isActivated: 0
 --- !u!114 &1087469422095186893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -932,8 +913,8 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 8357886499117215295}
   - {fileID: 1916695572803167949}
+  - {fileID: 8357886499117215295}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -966,6 +947,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIpref: {fileID: 6222030276907398558, guid: 27dba4d40f44d3545bff4b3482282987, type: 3}
+--- !u!114 &8357886499117215295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3125855342380702850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 1
+    SynchronizeType: 1
+    Name: Move
+  - Type: 4
+    SynchronizeType: 1
+    Name: Sprint
+  - Type: 9
+    SynchronizeType: 0
+    Name: Gather
+  - Type: 1
+    SynchronizeType: 1
+    Name: Rotate
+  - Type: 4
+    SynchronizeType: 0
+    Name: SkillActivated
+  m_SynchronizeLayers:
+  - SynchronizeType: 1
+    LayerIndex: 0
 --- !u!1 &3149665029249940757
 GameObject:
   m_ObjectHideFlags: 0

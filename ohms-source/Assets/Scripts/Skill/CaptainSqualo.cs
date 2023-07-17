@@ -37,7 +37,7 @@ public class CaptainSqualo : MonoBehaviourPun
 
     IEnumerator Salpare()
     {
-        Vector3 cannonPosition = this.transform.position + transform.forward * 2f;
+        Vector3 cannonPosition = this.transform.position + transform.forward * 3f;
         PhotonNetwork.Instantiate("SkillEffect/" + Cannon.name, cannonPosition, transform.rotation);
         yield return new WaitForSeconds(cooldown);
         isActivated = false;

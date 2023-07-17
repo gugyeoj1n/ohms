@@ -27,6 +27,7 @@ public class CameraFollow : MonoBehaviourPun
 
     void Update()
     {
+        if(!this.photonView.IsMine) return;
         float scrollWheel = Input.GetAxis("Mouse ScrollWheel");
         currentValue -= scrollWheel;
         followCam.m_Lens.OrthographicSize = Mathf.Clamp(currentValue, minValue, maxValue);
