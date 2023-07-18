@@ -12,7 +12,6 @@ using MongoDB.Bson;
 
 public class TitleLauncher : MonoBehaviourPunCallbacks
 {
-    TMP_InputField name;
     public TMP_InputField id_input;
     public TMP_InputField pw_input;
     public TMP_Text loginStatusText;
@@ -28,8 +27,9 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
     bool isLogined = false;
     bool menuOpened = false;
     bool loginOpened = false;
-    GameObject Menu;
-    GameObject Login;
+    public GameObject Menu;
+    public GameObject Login;
+    public Control control;
 
     private string MONGO_URI;
     private string DB_NAME = "users";
@@ -41,14 +41,11 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
         GetComponent<FadeAnim>().StartFadeIn();
 
         audio = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
-        soundSlider.value = audio.volume;
         //TextAsset textFile = Resources.Load<TextAsset>("Database/link");
         //MONGO_URI = textFile.text;
         MONGO_URI = "mongodb+srv://gugyeoj1n:woojin9821@ohms-db.6nxwi80.mongodb.net/?retryWrites=true&w=majority";
         mongoClient = new MongoClient(MONGO_URI);
         db = mongoClient.GetDatabase(DB_NAME);
-        Menu = GameObject.Find("Canvas").transform.Find("Menu").transform.gameObject;
-        Login = GameObject.Find("Canvas").transform.Find("LoginBackground").transform.gameObject;
 
         if(PlayerInfo.PlayerName != "")
         {
@@ -95,6 +92,8 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
     public void SetMenuActive()
     {
         menuOpened = !menuOpened;
+        if(menuOpened) control.LoadData();
+        else control.Save();
         Menu.SetActive(menuOpened);
     }
 
