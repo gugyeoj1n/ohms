@@ -48,7 +48,7 @@ public class ChatManager : MonoBehaviour, IChatClientListener
     {
         Debug.Log("CHAT SERVER CONNECT!");
         chatClient.Subscribe(new string[] { "lobby" });
-        chatClient.PublishMessage("lobby", string.Format("[System] {0} 님이 접속하셨습니다.", username));
+        chatClient.PublishMessage("lobby", string.Format("[System] {0} has joined the game.", username));
     }
 
     public void OnDisconnected()

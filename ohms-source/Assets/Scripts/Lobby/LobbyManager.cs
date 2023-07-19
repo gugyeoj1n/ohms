@@ -27,9 +27,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     public GameObject RateText;
     public GameObject MoneyText;
 
-    AudioSource audio;
-    public Slider soundSlider;
-
     public GameObject NowRoomName;
 
     bool settingOpened = false;
@@ -43,8 +40,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     {
         GetComponent<FadeAnim>().StartFadeIn();
 
-        audio = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
-        soundSlider.value = audio.volume;
         NameText.GetComponent<TMP_Text>().text = PlayerInfo.PlayerName;
         RateText.GetComponent<TMP_Text>().text = string.Format("Win {0}%", PlayerInfo.WinRate.ToString());
         MoneyText.GetComponent<TMP_Text>().text = string.Format("${0}", PlayerInfo.Money.ToString());
@@ -56,7 +51,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
 
     public override void OnConnectedToMaster()
     {
-        Debug.Log("MASTER SERVER CONNECTED");
         PhotonNetwork.JoinLobby();
     }
 
@@ -64,7 +58,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
     {
         Lobby.SetActive(true);
         ConnectText.SetActive(false);
-        Debug.Log("LOBBY CONNECTED");
     }
 
     public override void OnDisconnected(DisconnectCause cause)
@@ -119,11 +112,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         SettingPanel.SetActive(settingOpened);
     }
 
-    public void ControlVolume()
-    {
-        audio.volume = soundSlider.value;
-    }
-
     public void JoinToRoom()
     {
         string nowroomtext = NowRoomName.GetComponent<TMP_Text>().text;
@@ -133,7 +121,6 @@ public class LobbyManager : MonoBehaviourPunCallbacks
             InfoPanel.SetActive(false);
             return;
         }
-        Debug.LogFormat("JOIN ROOM {0}", nowroomtext);
         PhotonNetwork.JoinRoom(nowroomtext);
     }
 }

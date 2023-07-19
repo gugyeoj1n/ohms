@@ -1,10 +1,11 @@
-using System.Collections;
+//using System.Diagnostics;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.IO;
 using System.Windows.Forms;
 using Application = UnityEngine.Application;
+using Screen = UnityEngine.Screen;
 
 public class OptionController : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class OptionController : MonoBehaviour
 
     public GameOptionsData currentOption;
     public static Option defaultOption;
+    private UnityEngine.Resolution[] resolutions;
 
     /// <summary>
     /// 게임 옵션 저장용 클래스
@@ -178,9 +180,26 @@ public class OptionController : MonoBehaviour
         }
     }
 
+    // SET VIDEO
+    public void SetVideo()
+    {
+        // RESOLUTION + SCREENMODE
+        bool targetMode = (currentOption.video.screenMode == "FullScreen") ? true : false;
+        resolutions = Screen.resolutions;
+        for(int i = 0; i < resolutions.Length; i++)
+        {
+            UnityEngine.Resolution resolution = resolutions[i];
+            if(resolution.ToString().Contains(currentOption.video.resolution))
+            {
+                Screen.SetResolution(resolution.width, resolution.height, targetMode);
+            }
+        }
+    }
+
     void Start()
     {
         dataPath = Application.persistentDataPath + "/options.json";
         LoadOption();
+        SetVideo();
     }
 }

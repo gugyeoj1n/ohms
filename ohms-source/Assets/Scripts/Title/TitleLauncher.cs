@@ -19,8 +19,6 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
     public GameObject loginButtonText;
     public Button loginButton;
     public TMP_Text statusText;
-    AudioSource audio;
-    public Slider soundSlider;
 
     PlayerInfo playerInfo;
     
@@ -40,7 +38,6 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
     {
         GetComponent<FadeAnim>().StartFadeIn();
 
-        audio = GameObject.Find("AudioManager").gameObject.GetComponent<AudioSource>();
         //TextAsset textFile = Resources.Load<TextAsset>("Database/link");
         //MONGO_URI = textFile.text;
         MONGO_URI = "mongodb+srv://gugyeoj1n:woojin9821@ohms-db.6nxwi80.mongodb.net/?retryWrites=true&w=majority";
@@ -50,8 +47,8 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
         if(PlayerInfo.PlayerName != "")
         {
             isLogined = true;
-            loginStatusText.text = string.Format("로그인 상태 : <#67FF8C>{0}", PlayerInfo.PlayerName);
-            loginButtonText.GetComponent<TMP_Text>().text = "Logout";
+            loginStatusText.text = string.Format("Status : <#67FF8C>{0}", PlayerInfo.PlayerName);
+            loginButtonText.GetComponent<TMP_Text>().text = "Log Out";
         }
     }
 
@@ -69,11 +66,6 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
         }
     }
 
-    public void ControlVolume()
-    {
-        audio.volume = soundSlider.value;
-    }
-
     public void ExitGame()
     {
         Application.Quit();
@@ -83,7 +75,7 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
     {
         if(PhotonNetwork.NickName == "")
         {
-            statusText.text = "로그인해 주세요!";
+            statusText.text = "Log In First!";
             return;
         }
         GetComponent<FadeAnim>().TitleFadeOut();
@@ -109,7 +101,7 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
         {
             if(id_input.text == "" || pw_input.text == "")
             {
-                errorText.text = "입력이 올바르지 않습니다.";
+                errorText.text = "Invalid input.";
                 return;
             }
             var users = db.GetCollection<BsonDocument>("user");
@@ -123,7 +115,7 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
                     PlayerInfo.PlayerName = id_input.text;
                     PlayerInfo.WinRate = checkUser.GetValue("winRate").AsDouble;
                     PlayerInfo.Money = checkUser.GetValue("money").AsInt32;
-                    loginStatusText.text = string.Format("로그인 상태 : <#67FF8C>{0}", id_input.text);
+                    loginStatusText.text = string.Format("Status : <#67FF8C>{0}", id_input.text);
                     id_input.text = "";
                     pw_input.text = "";
                     errorText.text = "";
@@ -132,21 +124,21 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
                     loginButtonText.GetComponent<TMP_Text>().text = "Logout";
                 } else
                 {
-                    errorText.text = "비밀번호가 일치하지 않습니다.";
+                    errorText.text = "Password doesn't match.";
                     return;
                 }
             } catch {
-                errorText.text = "ID가 존재하지 않습니다.";
+                errorText.text = "ID doesn't exist.";
                 return;
             } 
         } else
         {
             PhotonNetwork.NickName = "";
-            loginStatusText.text = string.Format("로그인 상태 : <#FF5D5D>로그인되지 않음");
+            loginStatusText.text = string.Format("Status : <#FF5D5D>Not Logged In");
             id_input.text = "";
             pw_input.text = "";
             errorText.text = "";
-            loginButtonText.GetComponent<TMP_Text>().text = "Login";
+            loginButtonText.GetComponent<TMP_Text>().text = "Log In";
             isLogined = false;
         }
     }
@@ -155,7 +147,7 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
     {
         if(id_input.text == "" || pw_input.text == "")
         {
-            errorText.text = "입력이 올바르지 않습니다.";
+            errorText.text = "Invalid input.";
             return;
         }
 
@@ -164,11 +156,11 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
         try
         {
             var checkUser = users.Find(filter).First();
-            errorText.text = "ID가 이미 존재합니다.";
+            errorText.text = "ID already exists.";
             return;
         } catch 
         {
-            errorText.text = "<#67FF8C>계정이 생성되었습니다!";
+            errorText.text = "<#67FF8C>Account successfully created!";
             users.InsertOne(new BsonDocument
             {
                 { "name", id_input.text },

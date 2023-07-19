@@ -163,5 +163,6 @@ public class Control : MonoBehaviour
         };
 
         optionController.SaveOption(newOption);
+        optionController.SetVideo();
     }
 }

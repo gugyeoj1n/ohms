@@ -15,7 +15,7 @@ public class CreateRoom : MonoBehaviour
 
     void Start()
     {
-        roomNameInput.text = string.Format("{0} 님의 게임", PhotonNetwork.NickName);
+        roomNameInput.text = string.Format("{0}'s Game", PhotonNetwork.NickName);
     }
 
     void Update()
