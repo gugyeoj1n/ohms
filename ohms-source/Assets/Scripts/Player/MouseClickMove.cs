@@ -10,7 +10,6 @@ public class MouseClickMove : MonoBehaviourPun
     Animator anim;
     float targetMoveValue = 0f;
     float moveSpeed = 5f;
-    int frameCount = 0;
 
     Transform spot;
     LineRenderer lineRenderer;
@@ -35,7 +34,7 @@ public class MouseClickMove : MonoBehaviourPun
 
     void Update()
     {
-        //if(!photonView.IsMine) return;
+        if(!photonView.IsMine) return;
         if(Input.GetMouseButtonDown(1))
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -70,16 +69,12 @@ public class MouseClickMove : MonoBehaviourPun
         {
             anim.SetFloat("Move", targetMoveValue);
         }
-        frameCount++;
-
     }
 
     IEnumerator DrawPath()
     {
         lineRenderer.enabled = true;
         yield return null;
-        Debug.Log(frameCount);
-
         while(true)
         {
             int cnt = agent.path.corners.Length;
