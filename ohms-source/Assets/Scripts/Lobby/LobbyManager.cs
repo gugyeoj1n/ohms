@@ -7,6 +7,7 @@ using Photon.Realtime;
 using TMPro;
 using UnityEngine.SceneManagement;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
+using MongoDB.Driver;
 
 public class LobbyManager : MonoBehaviourPunCallbacks
 {
@@ -47,7 +48,12 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         PhotonNetwork.ConnectUsingSettings();
     }
 
-    
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+            if(settingOpened)
+                SettingOpen();
+    }
 
     public override void OnConnectedToMaster()
     {

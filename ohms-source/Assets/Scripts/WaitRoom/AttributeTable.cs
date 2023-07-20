@@ -16,6 +16,8 @@ public class AttributeTable : MonoBehaviourPun
     private CharacterObject selectedCharInfo;
     public CharacterObject[] CharacterData;
 
+    public CharInfoPanel infoView;
+
     public GameObject AttributePanel;
     public GameObject ContentField;
     public GameObject CharacterButton;
@@ -41,6 +43,7 @@ public class AttributeTable : MonoBehaviourPun
     void Start()
     {
         waitManager = GameObject.Find("WaitManager").gameObject.GetComponent<WaitManager>();
+        infoView = FindObjectOfType<CharInfoPanel>();
         outline = GetComponent<Outline>();
         LoadCharacterList();
     }
@@ -80,6 +83,7 @@ public class AttributeTable : MonoBehaviourPun
     public void Apply()
     {
         waitManager.WritePlayerSetting(player.GetComponent<PhotonView>().ViewID, selectedCharInfo);
+        infoView.SetIcon(SelectedIcon.sprite);
         CloseTable();
     }
 

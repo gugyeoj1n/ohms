@@ -121,7 +121,7 @@ public class TitleLauncher : MonoBehaviourPunCallbacks
                     errorText.text = "";
                     isLogined = true;
                     statusText.text = "";
-                    loginButtonText.GetComponent<TMP_Text>().text = "Logout";
+                    loginButtonText.GetComponent<TMP_Text>().text = "Log Out";
                 } else
                 {
                     errorText.text = "Password doesn't match.";
