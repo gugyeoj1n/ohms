@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 16220 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16322 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/cwj27/Documents/GitHub/ohms/ohms-source
+C:/Users/gatoDP/Documents/GitHub/ohms/ohms-source
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58831
-Successfully changed project path to: C:/Users/cwj27/Documents/GitHub/ohms/ohms-source
-C:/Users/cwj27/Documents/GitHub/ohms/ohms-source
+62937
+Successfully changed project path to: C:/Users/gatoDP/Documents/GitHub/ohms/ohms-source
+C:/Users/gatoDP/Documents/GitHub/ohms/ohms-source
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,248 +47,566 @@ C:/Users/cwj27/Documents/GitHub/ohms/ohms-source
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4740] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3747119587 [EditorId] 3747119587 [Version] 1048832 [Id] WindowsEditor(7,gugyeoj1n) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15888] Host "[IP] 192.168.1.53 [Port] 0 [Flags] 2 [Guid] 3607679789 [EditorId] 3607679789 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-615UOE2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4740] Host "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3747119587 [EditorId] 3747119587 [Version] 1048832 [Id] WindowsEditor(7,gugyeoj1n) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15888] Host "[IP] 192.168.1.53 [Port] 0 [Flags] 2 [Guid] 3607679789 [EditorId] 3607679789 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-615UOE2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 128.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 152.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/cwj27/Documents/GitHub/ohms/ohms-source/Assets
+[Subsystems] Discovering subsystems at path C:/Users/gatoDP/Documents/GitHub/ohms/ohms-source/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   NVIDIA
-    VRAM:     12124 MB
-    Driver:   31.0.15.3168
+    VRAM:     8072 MB
+    Driver:   31.0.15.3179
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002477 seconds.
+Registered in 0.007523 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 117.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 157.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.643 seconds
+- Completed reload, in  0.988 seconds
 Domain Reload Profiling:
-	ReloadAssembly (644ms)
-		BeginReloadAssembly (70ms)
+	ReloadAssembly (989ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (498ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (664ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (245ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (362ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (335ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
+				RefreshPlugins (158ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (133ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018886 seconds.
+Registered in 0.020036 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\cwj27\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\cwj27\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gatoDP\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\gatoDP\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.020 seconds
+- Completed reload, in  1.253 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1020ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (1253ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (844ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1049ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (325ms)
-			ReleaseScriptCaches (0ms)
+			SetupTypeCache (448ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (336ms)
+			SetupLoadedEditorAssemblies (410ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3896 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (1.4 MB). Loaded Objects now: 4319.
-Memory consumption went from 169.6 MB to 168.2 MB.
-Total: 2.298600 ms (FindLiveObjects: 0.189600 ms CreateObjectMapping: 0.086400 ms MarkObjects: 1.824300 ms  DeleteObjects: 0.197300 ms)
+Unloading 80 unused Assets / (1.4 MB). Loaded Objects now: 4321.
+Memory consumption went from 169.8 MB to 168.4 MB.
+Total: 3.239300 ms (FindLiveObjects: 0.321700 ms CreateObjectMapping: 0.196900 ms MarkObjects: 2.434300 ms  DeleteObjects: 0.285600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011220 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\cwj27\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\cwj27\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
-Domain Reload Profiling:
-	ReloadAssembly (953ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (729ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (262ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3831 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.3 MB). Loaded Objects now: 4335.
-Memory consumption went from 162.0 MB to 160.6 MB.
-Total: 2.869600 ms (FindLiveObjects: 0.198300 ms CreateObjectMapping: 0.183700 ms MarkObjects: 2.273200 ms  DeleteObjects: 0.213800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 231560.429194 seconds.
+  path: Assets/Scripts/Lobby
+  artifactKey: Guid(207b31b0d9b8b450a8e431e53d302bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lobby using Guid(207b31b0d9b8b450a8e431e53d302bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9830089a2faf22ed15a9a5ee449b2b3') in 0.014804 seconds 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.3 MB). Loaded Objects now: 4335.
-Memory consumption went from 86.4 MB to 85.1 MB.
-Total: 2.329900 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.939300 ms  DeleteObjects: 0.146100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 21.643998 seconds.
+  path: Assets/Scenes/WaitRoom.unity
+  artifactKey: Guid(4ce69f96d476c495d85784798ba4bf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WaitRoom.unity using Guid(4ce69f96d476c495d85784798ba4bf34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4004979711848cadbf76e756f005bbe') in 0.012995 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011239 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\cwj27\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\cwj27\Documents\GitHub\ohms\ohms-source\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Domain Reload Profiling:
-	ReloadAssembly (896ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (703ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (283ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3831 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (1.3 MB). Loaded Objects now: 4351.
-Memory consumption went from 162.0 MB to 160.7 MB.
-Total: 2.395100 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.093000 ms MarkObjects: 1.886000 ms  DeleteObjects: 0.233400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 497.905155 seconds.
+  path: Assets/UI/WaitRoom
+  artifactKey: Guid(37c85d4b29cfe0748b3f6322909fe65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/WaitRoom using Guid(37c85d4b29cfe0748b3f6322909fe65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1914ef4e76cbc7d791675cf6320e345c') in 0.019548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030778 seconds.
+  path: Assets/UI/WaitRoom/AttributePanel.prefab
+  artifactKey: Guid(2e032bf38db531b43928dcfea585443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/WaitRoom/AttributePanel.prefab using Guid(2e032bf38db531b43928dcfea585443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bae38ab105c2ae005a0d6749bb3a66') in 0.350155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 343.443174 seconds.
+  path: Assets/UI/WaitRoom/PlayerInfoPanel.prefab
+  artifactKey: Guid(0e1015bfa102cb2489777bde9c83f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/WaitRoom/PlayerInfoPanel.prefab using Guid(0e1015bfa102cb2489777bde9c83f25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac899aaa34e57d7dbe6bff51ef1837b') in 0.216417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.667772 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Buildings_M/airport-control-tower.prefab
+  artifactKey: Guid(78d744dd7b398f540bdde01fe817133b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Buildings_M/airport-control-tower.prefab using Guid(78d744dd7b398f540bdde01fe817133b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55efd424d6c93aa44129cba2cb31efb1') in 0.127617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Buildings_M/building-antique-china.prefab
+  artifactKey: Guid(b50f1dc2aa3ccae40878c6bb4d7d527a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Buildings_M/building-antique-china.prefab using Guid(b50f1dc2aa3ccae40878c6bb4d7d527a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6f3b142ef7c8f4964c82500989f81f') in 0.064024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Buildings_M/airport-jet-bridge.prefab
+  artifactKey: Guid(7345c7e08b96ca149846be52bf8d996d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Buildings_M/airport-jet-bridge.prefab using Guid(7345c7e08b96ca149846be52bf8d996d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd739dc10975ecaca512b7724bb0d1a2c') in 0.035975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.369100 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/carbon-fiber.prefab
+  artifactKey: Guid(addccbe70e65722438a27aa337d52539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/carbon-fiber.prefab using Guid(addccbe70e65722438a27aa337d52539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f23e4091b6a7b404ca5dca029f6f6df') in 0.029124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/crater-water.prefab
+  artifactKey: Guid(d383ad2fcfb4f744b8dffa58a3340758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/crater-water.prefab using Guid(d383ad2fcfb4f744b8dffa58a3340758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75292a2370f16d98f2999ed4cbca7526') in 0.067829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/gear-wheel.prefab
+  artifactKey: Guid(841c142e7f258d141aea36f81f453d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/gear-wheel.prefab using Guid(841c142e7f258d141aea36f81f453d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9099ee38bbf98da325ec9c57f96b56ca') in 0.024957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/scandium.prefab
+  artifactKey: Guid(730953a1f86eb344495ea089a3bce7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/scandium.prefab using Guid(730953a1f86eb344495ea089a3bce7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761b5a28ae2dcb98e10ef078df523a2b') in 0.034007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/salt.prefab
+  artifactKey: Guid(67c58673a76a6024d959ad425ad659f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/salt.prefab using Guid(67c58673a76a6024d959ad425ad659f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7047474442be73696a60529923a27dd') in 0.035839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/oxygen-cylinder.prefab
+  artifactKey: Guid(3cf3d00a35a50264e93e472f2d07e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/oxygen-cylinder.prefab using Guid(3cf3d00a35a50264e93e472f2d07e8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f28262ea06a76112609034d571b775a') in 0.028613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/printed-circuit.prefab
+  artifactKey: Guid(7d9f1db505de9284f931d63b6329dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/printed-circuit.prefab using Guid(7d9f1db505de9284f931d63b6329dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c3ccc9e477a9cded524258c58f6da6') in 0.040117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/iron-ore.prefab
+  artifactKey: Guid(86d44181559826c4e812e83d38631c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Resources_M/iron-ore.prefab using Guid(86d44181559826c4e812e83d38631c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ac56403675a5d1573d30e90bf2625c') in 0.025806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.934721 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Roman_M/pillar-ionic.prefab
+  artifactKey: Guid(af59cc63fe79c4008b32ba518f9ecbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Roman_M/pillar-ionic.prefab using Guid(af59cc63fe79c4008b32ba518f9ecbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f32f8473190599d2e41b430bbef8620') in 0.025520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.683494 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/belt-moving-connector.prefab
+  artifactKey: Guid(dfae93d5043db3a47abb7317b5ec8f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/belt-moving-connector.prefab using Guid(dfae93d5043db3a47abb7317b5ec8f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761d537d29e90b3b7f242170e7e00cb0') in 0.031874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/belt-moving-up.prefab
+  artifactKey: Guid(f646be1052ab2294886b832fd43094a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/belt-moving-up.prefab using Guid(f646be1052ab2294886b832fd43094a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865b1953cc1609808d8da0b241292746') in 0.027895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-box-divided.prefab
+  artifactKey: Guid(94cf2b421d8214348bd6a61d2255da67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-box-divided.prefab using Guid(94cf2b421d8214348bd6a61d2255da67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526d8703177ba271726943c5abde9c20') in 0.028495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-floor-manhole.prefab
+  artifactKey: Guid(ff746fd621c2c6e4983e120f1b844c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-floor-manhole.prefab using Guid(ff746fd621c2c6e4983e120f1b844c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f83adce85f08a0ea71745d31a00705f') in 0.056202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-floor-narrow.prefab
+  artifactKey: Guid(6977598a7cecb3b4e981380429f81ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-floor-narrow.prefab using Guid(6977598a7cecb3b4e981380429f81ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fbd5152005f4f664a0e474a162b432') in 0.025033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-connector-four.prefab
+  artifactKey: Guid(56761d3858d254845bfbe49d8b3d0dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-connector-four.prefab using Guid(56761d3858d254845bfbe49d8b3d0dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4858d2b6c22a0603ddabbfad858706a') in 0.030765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-door-metal.prefab
+  artifactKey: Guid(8cede31731e7d98419bd745d4ad5989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-door-metal.prefab using Guid(8cede31731e7d98419bd745d4ad5989c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec62721d3ab94443f130c81022d5c36f') in 0.035214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-pillar-light.prefab
+  artifactKey: Guid(beb94f0eeda4d6f438af243b84afc528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-pillar-light.prefab using Guid(beb94f0eeda4d6f438af243b84afc528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f196df1faee9dcaae52ca3f320b5f354') in 0.027094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-pipe-corridor-end.prefab
+  artifactKey: Guid(bbd584aebb6568c4f9747bd1de161c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-pipe-corridor-end.prefab using Guid(bbd584aebb6568c4f9747bd1de161c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de223dba22c102a8896e552ff80fa1ce') in 0.027162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.596056 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-door.prefab
+  artifactKey: Guid(199bbd8d210f6ca4e9009b39ca6c50e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-door.prefab using Guid(199bbd8d210f6ca4e9009b39ca6c50e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34410dba1448d8820b2d1b21b722d75') in 0.036311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-hall-middle.prefab
+  artifactKey: Guid(a103f055759a8c444a99c6b858337d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-hall-middle.prefab using Guid(a103f055759a8c444a99c6b858337d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462f9e5d6a3bf95ca9bb767c82c12204') in 0.030141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-greenhouse.prefab
+  artifactKey: Guid(a5b956ba9912cc549893c328125c8980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-greenhouse.prefab using Guid(a5b956ba9912cc549893c328125c8980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87dded1ad5325aa054f9426797fbb95') in 0.026153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.305623 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-hall-start.prefab
+  artifactKey: Guid(7fb6651d2aadf5f4a9ed78de0594e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-hall-start.prefab using Guid(7fb6651d2aadf5f4a9ed78de0594e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce4510957cf76dc7795a2da198f5451') in 0.033899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-hall-two-middle.prefab
+  artifactKey: Guid(a59363ac9230b3b46b7e0ddc3953dbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-hall-two-middle.prefab using Guid(a59363ac9230b3b46b7e0ddc3953dbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e81ef4b8e70afcb2a1efc12ae4900a') in 0.030464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-side-sleeping.prefab
+  artifactKey: Guid(289fa3fa6eca0114e92888ad4372a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-planet-base-side-sleeping.prefab using Guid(289fa3fa6eca0114e92888ad4372a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162072dbd2a2eefe6db21263e3a209e6') in 0.029630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.454203 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-plant-baggy-medium.prefab
+  artifactKey: Guid(2ebfa7e4f7a732448a633a69f7b3672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-plant-baggy-medium.prefab using Guid(2ebfa7e4f7a732448a633a69f7b3672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1600150152d3ed19758dfee2e3ac901') in 0.037913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-plant-leaf-medium.prefab
+  artifactKey: Guid(a686c361022ca3745b8e2f918c1279ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-plant-leaf-medium.prefab using Guid(a686c361022ca3745b8e2f918c1279ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9977c138ad9f1157298e156b96497ab3') in 0.037402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-plant-grass-small.prefab
+  artifactKey: Guid(07d4ee121c86e4e49bae6040752f312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-plant-grass-small.prefab using Guid(07d4ee121c86e4e49bae6040752f312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0409014e7d5c74a0275cd8cc9d46eacc') in 0.022174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010957 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-plant-orb-big.prefab
+  artifactKey: Guid(7aad6a07b38927c488648057b4576684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-plant-orb-big.prefab using Guid(7aad6a07b38927c488648057b4576684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e40127fd5b61120056bf59f47f0ad40') in 0.036475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-portal.prefab
+  artifactKey: Guid(841b36d8c0eb6274ab4fc70d86f34620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-portal.prefab using Guid(841b36d8c0eb6274ab4fc70d86f34620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d28dabf91770fba4a1a70e896f12e4') in 0.027659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.352429 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-roof-lights-corridor.prefab
+  artifactKey: Guid(8654a9a631d21fe478632fa36000b7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-roof-lights-corridor.prefab using Guid(8654a9a631d21fe478632fa36000b7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d86a548333166a19d5320a57d0d8719') in 0.031137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-ship-hangar.prefab
+  artifactKey: Guid(0bb5b0d7457f03d4aadaef50d86a68cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-ship-hangar.prefab using Guid(0bb5b0d7457f03d4aadaef50d86a68cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e19c041e93f7af608b6953d3c63c4dd') in 0.031854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-satelit-small.prefab
+  artifactKey: Guid(4fca84e19ad883a4c8cde3e23480b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-satelit-small.prefab using Guid(4fca84e19ad883a4c8cde3e23480b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150cd39d7f6df0b8cc127416c94d2bf1') in 0.029813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.594937 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-solar-panel-small.prefab
+  artifactKey: Guid(ffbf1702f0598144fbb534e4c7bd05f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-solar-panel-small.prefab using Guid(ffbf1702f0598144fbb534e4c7bd05f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825badaeea28dc906cf5a08ed5bce423') in 0.031755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-stairs.prefab
+  artifactKey: Guid(d855f24e12a21f748a605b40807bf621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-stairs.prefab using Guid(d855f24e12a21f748a605b40807bf621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd074cd38fa45b1b690acfa48cea050e7') in 0.026023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tree-crown-big.prefab
+  artifactKey: Guid(9e6fb7029b161e4429ce535a78199b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tree-crown-big.prefab using Guid(9e6fb7029b161e4429ce535a78199b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449b98e9e9599272947b91c573d77bb5') in 0.032884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007877 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tree-crown-small.prefab
+  artifactKey: Guid(b92d41962ee4c3d4fa9d8d015b6fe8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tree-crown-small.prefab using Guid(b92d41962ee4c3d4fa9d8d015b6fe8eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70b7dd9a2775fa212019d9368705baf') in 0.027014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tree-orb-big.prefab
+  artifactKey: Guid(ef411b817a0137c47924e9e842d2b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tree-orb-big.prefab using Guid(ef411b817a0137c47924e9e842d2b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1b53e46b02a256eb6c35a1fc9e5d97') in 0.036298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tree-orb-medium.prefab
+  artifactKey: Guid(c21eda1df7c1b1a4aa2de68864cbf875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tree-orb-medium.prefab using Guid(c21eda1df7c1b1a4aa2de68864cbf875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd84ed4fcb56140e9e1082ae6da647b3') in 0.023261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.436144 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tree-willow-medium.prefab
+  artifactKey: Guid(36b4e8c67ff5ad245ba0607025dcb3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tree-willow-medium.prefab using Guid(36b4e8c67ff5ad245ba0607025dcb3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ded1f661ada0baef5274c90db7bce1') in 0.031098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tube-end.prefab
+  artifactKey: Guid(1e09d1c6ad936694b91bce4bcaa20be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-tube-end.prefab using Guid(1e09d1c6ad936694b91bce4bcaa20be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa51976a1a28a4a83881405a6c0da18') in 0.031407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-base-circle-big.prefab
+  artifactKey: Guid(ce4a567d8ba3c1f4fa6c97b2d82e1938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-base-circle-big.prefab using Guid(ce4a567d8ba3c1f4fa6c97b2d82e1938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fde3e7f4a653abdf38db499994a4d1') in 0.025840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.682100 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-base-circle-small.prefab
+  artifactKey: Guid(493ca766095d1394eb3c5f0425ee047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-base-circle-small.prefab using Guid(493ca766095d1394eb3c5f0425ee047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bb07ece60cc8d93f78c32f3e3d4238') in 0.032137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-base-star-small.prefab
+  artifactKey: Guid(c0aef339521947941be94bf1d6a9de2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-base-star-small.prefab using Guid(c0aef339521947941be94bf1d6a9de2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e554882e2e3210729c806c4d858aa39b') in 0.029988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-head-beam-small.prefab
+  artifactKey: Guid(9e14307a7822d2443a5f6cf981f816d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-head-beam-small.prefab using Guid(9e14307a7822d2443a5f6cf981f816d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8978c03c821256e803fd45dc8753a917') in 0.027933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-head-laser-big.prefab
+  artifactKey: Guid(2e7aeac202700374e96fc7f636e70cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-head-laser-big.prefab using Guid(2e7aeac202700374e96fc7f636e70cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d26fc65e3cd7b169854e0aa2aa462cb') in 0.027932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-head-missile-big.prefab
+  artifactKey: Guid(dd409db7555b7d14fb794ce7008f7d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-turret-head-missile-big.prefab using Guid(dd409db7555b7d14fb794ce7008f7d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6674d6571858ef90628c59a66f40f84') in 0.029098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.158626 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-vent-end.prefab
+  artifactKey: Guid(efb9c6b388ec00545b2a08e0b497357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-vent-end.prefab using Guid(efb9c6b388ec00545b2a08e0b497357e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c97dfd666360224da4098636550114') in 0.032291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-vial.prefab
+  artifactKey: Guid(7cef8b3b5ab602d4ea83e337956803ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-vial.prefab using Guid(7cef8b3b5ab602d4ea83e337956803ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec1526433ac20cea4ddb34971af2d35') in 0.027534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-vials-three-pack.prefab
+  artifactKey: Guid(1243d7940641e124ea5305e2977bf335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-vials-three-pack.prefab using Guid(1243d7940641e124ea5305e2977bf335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7062acc29cc0bf56f37dfff7c5407d') in 0.026952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-wall-corner.prefab
+  artifactKey: Guid(d7146fedd9848a24ab3647f98650c286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-wall-corner.prefab using Guid(d7146fedd9848a24ab3647f98650c286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be2306431607aa1c889e83cce0f33b0') in 0.024763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-wall-corridor-edge.prefab
+  artifactKey: Guid(41e511a25108aa646a73f4e65cbc15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-wall-corridor-edge.prefab using Guid(41e511a25108aa646a73f4e65cbc15c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d55b433bd1f9ad81711d8707c7a731') in 0.026602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.903684 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-wall-edge-stripe.prefab
+  artifactKey: Guid(e8f00aea82b68a74bae2fddd7cd9020b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-wall-edge-stripe.prefab using Guid(e8f00aea82b68a74bae2fddd7cd9020b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ba159eb02e519cf196fdc2b2dfa0ff') in 0.030278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-wall-stripe.prefab
+  artifactKey: Guid(78e98cdfcb797d947a578b542b06140c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-wall-stripe.prefab using Guid(78e98cdfcb797d947a578b542b06140c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c64cc3834e589647a9d010f6f4007f') in 0.034109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-wall-windows-stripe.prefab
+  artifactKey: Guid(01aab25f25401f84aa603f191d1b57fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-wall-windows-stripe.prefab using Guid(01aab25f25401f84aa603f191d1b57fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898347135a592ad2ddb65d64ab06260a') in 0.027184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.443171 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-window-big.prefab
+  artifactKey: Guid(71372b007dd4a6440b843930fd5976ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-window-big.prefab using Guid(71372b007dd4a6440b843930fd5976ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c04544ae29c2d19de816a667f5f3735') in 0.033068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-windows-corridor-stripe.prefab
+  artifactKey: Guid(58a42da4b7b44434a830945b26321664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Scifi_M/scifi-windows-corridor-stripe.prefab using Guid(58a42da4b7b44434a830945b26321664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07c7390ca6330a400914a9def03d26e') in 0.030134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.827495 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Space_M/crater-big.prefab
+  artifactKey: Guid(9b5dfd5fac5c0449bbab0aae262d9f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Space_M/crater-big.prefab using Guid(9b5dfd5fac5c0449bbab0aae262d9f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91e99f29ef3bbcbf120b2c33882c0a5') in 0.029499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Space_M/planet-ring.prefab
+  artifactKey: Guid(397e4c5b32e3a41a2a4237483eb11f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Space_M/planet-ring.prefab using Guid(397e4c5b32e3a41a2a4237483eb11f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7907f082ff70998776d293b06650e691') in 0.041138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Space_M/planet-sea.prefab
+  artifactKey: Guid(eab87ad1f2f134be8a0d59a03a12b7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Space_M/planet-sea.prefab using Guid(eab87ad1f2f134be8a0d59a03a12b7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d5f47535189d8015824e48d7bd795d') in 0.030829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Space_M/ufo.prefab
+  artifactKey: Guid(a005bcd04d64748478cb1af0d6b6a230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Space_M/ufo.prefab using Guid(a005bcd04d64748478cb1af0d6b6a230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc184bd0c6665f69edbb2393cdc5423') in 0.030094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.112388 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/basketball-stand.prefab
+  artifactKey: Guid(7381906dd451f4cec9b77266bd6ab5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/basketball-stand.prefab using Guid(7381906dd451f4cec9b77266bd6ab5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e748a1b3b1f324989311a4c8757e4f') in 0.033824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/golf-club-iron.prefab
+  artifactKey: Guid(2d0761770d44ece43980ea72d6d4cd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/golf-club-iron.prefab using Guid(2d0761770d44ece43980ea72d6d4cd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3467033f33fe4c155756d350993d5c') in 0.024374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-lift-seat.prefab
+  artifactKey: Guid(11b2a34b0bfde934f83a885723320197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-lift-seat.prefab using Guid(11b2a34b0bfde934f83a885723320197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ac7f93f3e268045ba2a79d48d75910') in 0.026238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-lift-stake.prefab
+  artifactKey: Guid(b61504e73fb9cd142a8d6426253cf1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski-lift-stake.prefab using Guid(b61504e73fb9cd142a8d6426253cf1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d1bcd0e76861c44ff63bf974818ebb') in 0.028916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski.prefab
+  artifactKey: Guid(3c99b84baf8a2ea4c9bb5e0da5e86ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/ski.prefab using Guid(3c99b84baf8a2ea4c9bb5e0da5e86ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670739cb0558112f2ec8952cbf277c6a') in 0.024911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/skateboard.prefab
+  artifactKey: Guid(2334fad76b4ce2945a59d5c9011dda41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/M/- Prefabs_M/Sport_M/skateboard.prefab using Guid(2334fad76b4ce2945a59d5c9011dda41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bad8c90dc9d4af9cd63bc6cde3ff298') in 0.027412 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
